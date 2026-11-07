@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: Conducts systematic academic literature reviews in 6 strict sequential phases: Frontier -> Survey -> Deep Dive -> Code & Tools -> Synthesis -> Report & BibTeX.
+description: "Conducts systematic academic literature reviews in 6 strict sequential phases: Frontier -> Survey -> Deep Dive -> Code & Tools -> Synthesis -> Report & BibTeX."
 version: 2.0.0
 ---
 

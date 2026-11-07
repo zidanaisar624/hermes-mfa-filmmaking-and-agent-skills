@@ -1,6 +1,6 @@
 ---
 name: math-reasoning
-description: Performs formal mathematical reasoning: equation derivations, theorem proofs, problem formalization, and LaTeX notation tables.
+description: "Performs formal mathematical reasoning: equation derivations, theorem proofs, problem formalization, and LaTeX notation tables."
 version: 2.0.0
 ---
 

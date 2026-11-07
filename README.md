@@ -4,11 +4,11 @@
 
 [![Version](https://img.shields.io/badge/Version-2.0.0-2563EB?style=flat-square)](./CHANGELOG.md)
 [![Primary Target](https://img.shields.io/badge/Priority_%231-Hermes_Agent-7C3AED?style=flat-square)](https://github.com/NousResearch/hermes-agent)
-[![Universal Agents](https://img.shields.io/badge/Compatible-OpenClaw_%7C_ChatGPT_%7C_Claude_%7C_All_Agents-059669?style=flat-square)](#2-kompatibilitas-lintas-semua-ai-agent-hermes-1-openclaw-chatgpt-claude--lainnya)
+[![Universal Agents](https://img.shields.io/badge/Compatible-OpenClaw_%7C_ChatGPT_%7C_Claude_%7C_All_Agents-059669?style=flat-square)](#2-kompatibilitas-lintas-semua-ai-agent-hermes-1-openclaw-chatgpt-claude-lainnya)
 [![CLI-Anything](https://img.shields.io/badge/Zero_MCP_Token_Bloat-HKUDS%2FCLI--Anything_%2B_ArtCraft_%26_Blender_5.2%2B-EA580C?style=flat-square)](https://github.com/HKUDS/CLI-Anything)
 [![Skills Included](https://img.shields.io/badge/Interoperable_Skills-48_Collaborative_Skills-10B981?style=flat-square)](./skills)
 [![Architected by Google Gemini](https://img.shields.io/badge/Architected_%26_Written_by-Google_Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white)](https://gemini.google.com)
-[![Initiated by MuZA](https://img.shields.io/badge/Initiated_%26_Experimented_by-Muhammad_Zidan_Aisar_(MuZA)-F59E0B?style=flat-square)](https://github.com/zidanaisar624)
+[![Initiated by MuZA](https://img.shields.io/badge/Initiated_%26_Experimented_by-Muhammad_Zidan_Aisar_%28MuZA%29-F59E0B?style=flat-square)](https://github.com/zidanaisar624)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square)](./LICENSE)
 
 > **Summary (English)**: *Suite of 48 Collaborative AI Agent Skills featuring an internet-researched S1–S2 (BFA/MFA) Filmmaking, Cinematography & Photography Advisor (built as a humble Co-Pilot with deep respect for film students & human film crews—NEVER a replacement) + Eternal-Student Auto-Curiosity R&D & Trend Forecasting Engine. Native CLI-Anything zero-MCP ready (with optional 15 ArtCraft apps & Blender 5.2+ integration) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini, and 100% free to use.*
@@ -25,17 +25,9 @@ Repositori ini berisi ekosistem **48 Modular & Interoperable AI Agent Skills** (
 
 ---
 
-## 🎬 Creative & Technical Film Advisor — Powered by Eternal Curiosity
+## 🎞️ Studio Visual Tour & Cinematic Showcase
 
-![HERMES AI Film Advisor](./assets/cinema_ai_social_preview.png)
-
-*Research-backed S1–S2 filmmaking & photography advisory — zero MCP bloat, universal across agents, always learning.*
-
----
-
-## 🎞️ Studio Visual Tour — What Can This System Do?
-
-Visual map for the repository's documented creative workflows. These illustrations explain capabilities, optical math, and tool handoffs; **they do not mean that external applications, MCP servers, or multi-agent connections are automatically installed or active**.
+Peta visual alur kerja kreatif yang terdokumentasi di dalam repositori ini. Ilustrasi berikut menjelaskan kapabilitas terapan, matematika optik, serta serah-terima alat antar-fase; **gambar ini mencerminkan alur kerja terdokumentasi dan tidak berarti aplikasi eksternal, server MCP, atau koneksi multi-bot otomatis terpasang tanpa setup pengguna**.
 
 ![Hermes Creative Universe — from an idea to a finished cut](./assets/cinematic-studio/01_creative_universe.jpg)
 
@@ -43,10 +35,16 @@ Visual map for the repository's documented creative workflows. These illustratio
 
 ![Visual capability atlas covering scripting, storyboards, cinematography, photography, 3D previs, editing, sound, and R&D](./assets/cinematic-studio/03_capability_atlas.png)
 
-<details>
-<summary><strong>Explore the rest of the visual library (16 cinematic assets)</strong></summary>
+### 🎬 Cinematic Advisor Vision & Philosophy
 
-Browse [assets/cinematic-studio/](./assets/cinematic-studio/) for individual diagrams, two original studio illustrations, the new GitHub social preview and reusable templates. The four core images in `assets/` remain fully preserved.
+![HERMES AI Film Advisor](./assets/cinema_ai_social_preview.png)
+
+*Research-backed S1–S2 filmmaking & photography advisory — zero MCP bloat, universal across agents, always learning.*
+
+<details>
+<summary><strong>Jelajahi Galeri Visual Studio Selengkapnya (17 Berkas)</strong></summary>
+
+Buka folder [assets/cinematic-studio/](./assets/cinematic-studio/) untuk melihat seluruh diagram per fase, dua karya ilustrasi studio orisinal, artwork GitHub social preview, serta template banner SVG yang dapat disunting. Empat aset gambar utama di `assets/` tetap terjaga utuh.
 
 </details>
 
@@ -55,12 +53,12 @@ Browse [assets/cinematic-studio/](./assets/cinematic-studio/) for individual dia
 ## Daftar Isi
 
 1. [Kompatibilitas Native `CLI-Anything` (Tanpa Boros Token MCP!)](#1-kompatibilitas-native-cli-anything-tanpa-boros-token-mcp)
-2. [Kompatibilitas Lintas Semua AI Agent (Hermes #1, OpenClaw, ChatGPT, Claude & Lainnya)](#2-kompatibilitas-lintas-semua-ai-agent-hermes-1-openclaw-chatgpt-claude--lainnya)
-3. [Instalasi Otomatis Pintar (Auto-Scan Disk & Memori untuk Semua User)](#3-instalasi-otomatis-pintar-auto-scan-disk--memori-untuk-semua-user)
-4. [Automasi Cek & Update Langsung dari Terminal (`hmfa check` / `hmfa update`)](#4-automasi-cek--update-langsung-dari-terminal-hmfa-check--hmfa-update)
-5. [Trio Skill Inti: Advisor S1–S2 + Eternal-Student Auto-Curiosity + CLI Bridge](#5-trio-skill-inti-advisor-s1s2--eternal-student-auto-curiosity--cli-bridge)
+2. [Kompatibilitas Lintas Semua AI Agent (Hermes #1, OpenClaw, ChatGPT, Claude & Lainnya)](#2-kompatibilitas-lintas-semua-ai-agent-hermes-1-openclaw-chatgpt-claude-lainnya)
+3. [Instalasi Otomatis Pintar (Auto-Scan Disk & Memori untuk Semua User)](#3-instalasi-otomatis-pintar-auto-scan-disk-memori-untuk-semua-user)
+4. [Automasi Cek & Update Langsung dari Terminal (`hmfa check` / `hmfa update`)](#4-automasi-cek-update-langsung-dari-terminal-hmfa-check-hmfa-update)
+5. [Trio Skill Inti: Advisor S1–S2 + Eternal-Student Auto-Curiosity + CLI Bridge](#5-trio-skill-inti-advisor-s1s2-eternal-student-auto-curiosity-cli-bridge)
 6. [Spesifikasi Kurikulum Riset `filmmaking-videography-photography-s2`](#6-spesifikasi-kurikulum-riset-filmmaking-videography-photography-s2)
-7. [Eternal Student & Prediksi Tren di `auto-curiousity-for-film-making`](#7-eternal-student--prediksi-tren-di-auto-curiousity-for-film-making)
+7. [Eternal Student & Prediksi Tren di `auto-curiousity-for-film-making`](#7-eternal-student-prediksi-tren-di-auto-curiousity-for-film-making)
 8. [Jaringan Kolaborasi Penuh Antar Semua 48+ Skills](#8-jaringan-kolaborasi-penuh-antar-semua-48-skills)
 9. [Mode Dewan Penasihat: Single-Agent (8 Lensa) vs Multi-Bot Crew](#9-mode-dewan-penasihat-single-agent-8-lensa-vs-multi-bot-crew)
 
@@ -70,8 +68,9 @@ Browse [assets/cinematic-studio/](./assets/cinematic-studio/) for individual dia
 
 Menyambungkan belasan server MCP sekaligus menyuntikkan ratusan skema JSON ke *system prompt* di setiap giliran percakapan (**menghabiskan 15.000–40.000+ token bahkan sebelum Anda mengetik pesan**).
 
-
 ![Documented ArtCraft and Blender toolchain grouped by creative phase](./assets/cinematic-studio/09_artcraft_blender_toolchain.png)
+
+![ArtCraft and Blender 5.2+ MCP Architecture Pipeline](./assets/artcraft_blender_pipeline.png)
 
 Repositori ini kini **kompatibel penuh dengan [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)**:
 - **0 Token Idle Context**: Agen memanggil *harness* CLI berformat `--json` (`cli-anything-blender`, `cli-anything-kdenlive`, `cli-anything-shotcut`, `cli-anything-gimp`, `cli-anything-krita`, `cli-anything-inkscape`, `cli-anything-audacity`, `cli-anything-obs-studio`, `cli-anything-videocaptioner`, `cli-anything-comfyui`, `cli-anything-libreoffice`) dan CLI native (`ffmpeg`, `ffprobe`, `darktable-cli`, `exiftool`, atau `*-cli.exe` lokal) **hanya saat dibutuhkan lewat terminal**.
@@ -125,14 +124,26 @@ install.bat
 # Atau di PowerShell:
 .\install.ps1
 
-# Opsi tambahan (misal hanya cek target disk tanpa menulis file, atau khusus Hermes saja):
-python install.py --dry-run
-python install.py --hermes-only
+# Atau via Python lintas OS:
+python install.py
+```
+
+*Opsi tambahan (misal hanya cek target disk tanpa menulis file, atau khusus Hermes saja):*
+```powershell
+.\install.ps1 -DryRun
+.\install.ps1 -Target hermes
 ```
 
 ### Opsi C — Via `hermes skills` / `npx skills` CLI
+
 ```bash
+# Tambahkan repositori sebagai tap resmi
 hermes skills tap add zidanaisar624/hermes-mfa-filmmaking-and-agent-skills
+hermes skills install filmmaking-videography-photography-s2
+hermes skills install auto-curiousity-for-film-making
+hermes skills install cli-anything-filmmaking-bridge
+
+# Atau via npx skills
 npx skills add zidanaisar624/hermes-mfa-filmmaking-and-agent-skills
 ```
 
@@ -140,9 +151,11 @@ npx skills add zidanaisar624/hermes-mfa-filmmaking-and-agent-skills
 
 ## 4. Automasi Cek & Update Langsung dari Terminal (`hmfa check` / `hmfa update`)
 
-Setelah instalasi pertama selesai, perintah global **`hmfa`** (alias **`hermes-filmmaking`** dan **`cli-anything-filmmaking`**) otomatis terdaftar di terminal **PowerShell**, **CMD**, maupun **Bash**. Anda **tidak perlu lagi membuka browser ke GitHub atau `cd` ke folder repo** untuk mengecek maupun menarik pembaruan:
+Anda **tidak perlu lagi mengunjungi halaman web GitHub** untuk memeriksa apakah ada versi baru atau memperbarui *skills*!
 
-```powershell
+Jalankan perintah langsung dari terminal Anda:
+
+```bash
 # 1. Cek apakah ada update terbaru di GitHub (dari folder mana saja di CMD / PowerShell!)
 hmfa check
 
@@ -150,13 +163,15 @@ hmfa check
 hmfa update
 
 # 3. Cek kesehatan instalasi Hermes lintas drive, profil bot, dan aplikasi kreatif
-hmfa status
+hmfa doctor
 
 # 4. (Opsional) Aktifkan pengingat update otomatis ringan tiap 24 jam saat membuka PowerShell
 hmfa auto-check enable
 ```
 
-> **Jaminan Keamanan Update**: `hmfa update` mendukung pembaruan via `git pull --ff-only` maupun unduhan arsip HTTPS otomatis (bahkan bagi pengguna tanpa Git), **tidak pernah menyentuh `provider`/`model` di `config.yaml`**, dan menjaga seluruh catatan belajar di `curiosity_ledger/` tetap aman!
+Atau menggunakan skrip helper bawaan di folder repositori:
+- **Windows**: `update.bat` atau `.\update.ps1`
+- **Linux / macOS**: `./update.sh`
 
 ---
 
@@ -175,7 +190,6 @@ hmfa auto-check enable
 ## 6. Spesifikasi Kurikulum Riset `filmmaking-videography-photography-s2`
 
 ![Five-stage filmmaking journey from development to delivery](./assets/cinematic-studio/04_five_phase_pipeline.png)
-
 
 Skill [`filmmaking-videography-photography-s2`](./skills/filmmaking-videography-photography-s2/SKILL.md) merangkum hasil riset terbuka dari literatur sekolah film S1–S2 (*USC, AFI, NYU Tisch, buku teks optik, penyuntingan, dan tata suara*) menjadi panduan penasihat terukur:
 
@@ -200,7 +214,6 @@ Skill [`filmmaking-videography-photography-s2`](./skills/filmmaking-videography-
 
 ---
 
-
 ![Example output formats: widescreen film, vertical video, still photography and documents](./assets/cinematic-studio/11_delivery_formats.png)
 
 ---
@@ -208,7 +221,6 @@ Skill [`filmmaking-videography-photography-s2`](./skills/filmmaking-videography-
 ## 7. Eternal Student & Prediksi Tren di `auto-curiousity-for-film-making`
 
 ![Autonomous creative research cycle: discover, analyze, test, and hand off recipes](./assets/cinematic-studio/05_auto_curiousity_loop.png)
-
 
 Skill [`auto-curiousity-for-film-making`](./skills/auto-curiousity-for-film-making/SKILL.md) membentuk AI menjadi **pembelajar abadi (*Eternal Student*)** melalui 5 kapabilitas berkesinambungan:
 
@@ -219,15 +231,15 @@ Skill [`auto-curiousity-for-film-making`](./skills/auto-curiousity-for-film-maki
 3. **Belajar Ilmu Baru Terkait (*Domain Knowledge Evolution*)**:
    - Proaktif meneliti perkembangan sains warna baru (mis. ACES 2.0, AgX, HDR), optik komputasional, dan riset psikologi perhatian penonton di internet dengan verifikasi kutipan.
 4. **Bedah Tren 6-Lapisan & Prediksi Tren Masa Depan (*5-Signal Trend Forecasting*)**:
-   - Selain membedah tren saat ini ke 6 lapisan kuantitatif, agen **memprediksi tren visual & editing 1–12 bulan ke depan** menggunakan **5 Sinyal Prediktif** (*1. Kurva Kejenuhan Audiens & Efek Bandul/Counter-Trend; 2. Jeda Demokratisasi Fitur Software 3–9 Bulan; 3. Perubahan Spesifikasi/Algoritma Platform; 4. Gelombang Difusi Lintas-Medium Festival -> Mainstream; 5. Skor Kecepatan Adopsi & Kebaruan*) yang dicatat beserta skor keyakinan & kriteria falsifikasi di `curiosity_ledger/trend_forecasts.json`.
-5. **Suplai Kartu Resep & Advisory ke Produksi**:
-   - Mengirimkan *Cinematic Recipe Cards* dan rekomendasi *early-mover* secara mulus ke `filmmaking-videography-photography-s2`.
+   - Menghitung akselerasi adopsi tren (*velocity* $\Delta V$, *saturation* $S$) untuk memproyeksikan **5 Horizon Tren** (Infleksi 30-Hari, *Fatigue Plateau* 90-Hari, *Underground Wave* 180-Hari) lengkap dengan rumus parameter CLI siap pakai.
+5. **Kolaborasi Lintas-Skill (*Cross-Skill Synergy Mesh*)**:
+   - Mengoper hasil temuan resep baru ke *skill* terkait (misalnya grafik parameter ke `academic-plotting` atau penulisan naskah ke `filmmaking-videography-photography-s2`).
 
 ---
 
 ## 8. Jaringan Kolaborasi Penuh Antar Semua 48+ Skills
 
-Seluruh **48 *skills*** di direktori [`skills/`](./skills/) (ditambah *skill* eksternal apa pun yang dipasang pengguna di agennya) dirancang untuk saling berkolaborasi mendukung **Auto-Curiosity** dan **Filmmaking Advisor** (lihat [`cross-skill-synergy-mesh.md`](./skills/auto-curiousity-for-film-making/references/cross-skill-synergy-mesh.md)):
+Seluruh **48 *skills*** di direktori [`skills/`](./skills/) (ditambah *skill* eksternal mana pun yang Anda miliki) bekerja sama dalam satu kesatuan sistem interaktif via panduan arsitektur [`cross-skill-synergy-mesh.md`](./skills/auto-curiousity-for-film-making/references/cross-skill-synergy-mesh.md):
 
 | Klaster Kolaborasi | Daftar Skill (`skills/<nama-skill>/`) |
 | :--- | :--- |
@@ -245,20 +257,19 @@ Seluruh **48 *skills*** di direktori [`skills/`](./skills/) (ditambah *skill* ek
 
 ![Two workflow modes: sequential single agent or coordinated multi-agent crew](./assets/cinematic-studio/10_single_multi_agent_modes.png)
 
-
-![Creative Pipeline](./assets/artcraft_blender_pipeline.png)
-
 Diatur di dalam [`references/single-vs-multibot-crew-roles.md`](./skills/filmmaking-videography-photography-s2/references/single-vs-multibot-crew-roles.md):
 - **Mode A — Single-Agent "8-Department Advisory Lens"**: Satu agen (di Hermes, OpenClaw, ChatGPT, atau Claude) meninjau proyek Anda secara berurutan dari 8 sudut pandang departemen sekolah film (*Producer, Screenwriter, Director, DP/Photographer, Art Director, Editor, Colorist/VFX, Sound Designer*).
 - **Mode B — Multi-Bot Studio Advisory Crew**: Membagi peran penasihat & asisten teknis ke beberapa profil spesialis paralel (mis. profil *Director*, *Visual/DP*, *Technical/CLI*, *Story/Research*, dan *Producer/Pacing*) tanpa pernah mengambil alih kemudi artistik dari kreator manusia.
 
 ---
 
-
 ![Hermes filmmaking principle: research, make, review, evolve](./assets/cinematic-studio/12_end_card.png)
 
 ## Lisensi & Kredit
 
 Dirilis secara terbuka dan gratis di bawah lisensi [MIT License](./LICENSE).
+
 - **Inisiator Konsep & Eksperimen Sistem**: **Muhammad Zidan Aisar (MuZA)**
 - **Riset Kurikulum, Arsitektur CLI-Anything & Rekayasa Multi-Agen**: **Google Gemini**
+- **Integrasi Kreatif**: [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything), 15 ArtCraft Apps & Blender 5.2+
+- **Penghormatan Khusus**: Mahasiswa perfilman, lulusan sekolah sinema, dan kru film di seluruh dunia
