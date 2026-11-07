@@ -1,0 +1,13 @@
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local sandbox test outputs
+curiosity_ledger/sandbox_tests/*.mp4
+curiosity_ledger/sandbox_tests/*.wav
+curiosity_ledger/sandbox_tests/*.png
+__pycache__/
+*.pyc
