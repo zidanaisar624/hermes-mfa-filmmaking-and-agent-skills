@@ -1,0 +1,18 @@
+path,width,height,bytes,sha256,description,recommended_placement
+assets/cinematic-studio/01_creative_universe.jpg,1600,720,431484,ed618990f85f812b33620da6bec0073fdd288c7045c02637528da8254de4489b,New cinematic opening illustration,README visual tour
+assets/cinematic-studio/02_six_creative_pillars.png,1600,310,244974,8a029461481f3753da7caf960b458c0445a703fe0c06a221beb25f64f4d1dd49,Six capability pillars,README visual tour
+assets/cinematic-studio/03_capability_atlas.png,1600,925,741217,5bcd718e658a6eb70748a46a4e9bbdc4c9abb18405d2cb368415e0eaf032da40,Eight concrete filmmaking capabilities,README visual tour
+assets/cinematic-studio/04_five_phase_pipeline.png,1600,790,735234,5932da3455c3df1be70731c924f1f5ab3e56913095f788c1bb3009c0ac9e041a,5-stage production pipeline,Section 2 introduction
+assets/cinematic-studio/05_auto_curiousity_loop.png,1600,840,781497,d28e7b8f403bdccbaf2f57dfb4022dee5d5ff5067e0c81477628773413286d1a,Research/discovery/sandbox/recipe handoff loop,Section 3 Auto-Curiousity
+assets/cinematic-studio/06_story_to_screen.png,1600,725,615921,7ac777df3ab3fb7fdf5416cb102d181dd2cd720198d30970533aa3bb724920cb,Screenplay / storyboard / cinema frame,Section 2A
+assets/cinematic-studio/07_cinematography_lab.png,1600,740,626684,4b68cc3e242ba5b9be3b122016e12419063ed0e685f24103c735a181945b0a93,Optics / exposure / lighting / blocking,Section 2B
+assets/cinematic-studio/08_postproduction_suite.png,1600,770,629343,5d7e3a221d4e707efb62df47aba583cc44999f620fa17244a3d0e7e22d43b376,"Edit, color and sound illustration",Section 2C
+assets/cinematic-studio/09_artcraft_blender_toolchain.png,1600,890,763210,6b4a6b3507518f20587522291075a59ddec9e1914f71dee10fdc1d994f692f81,Documented tools by production role,Section 4 toolchain
+assets/cinematic-studio/10_single_multi_agent_modes.png,1600,730,600850,2dda5008e5bcd0af5a0afbc80c278dc297e87300cf6bf8d9e9437dca5dab2a10,Single or multi-agent workflows (no named characters),Section 5 modes
+assets/cinematic-studio/11_delivery_formats.png,1600,670,637504,bc1801f6ac73ed7cbac0c60f2d70fe336504f55440e675c3ac83dc772470f964,"Landscape, portrait, stills, docs",Between section 2 and 3
+assets/cinematic-studio/12_end_card.png,1600,400,582914,e5d087620092a6c3b1299b8b2207931492f0aa593d57acf5fe7926800008d787,Creative iteration footer,Before credits
+assets/cinematic-studio/13_github_social_preview_1280x640.jpg,1280,640,307679,33346ff51eafce115397ebdd8653171cf9f63844968b784f2f517cdc7301b6a0,Distinct repository social-preview artwork,GitHub Settings — Social preview
+assets/cinematic-studio/14_studio_mark.png,512,512,61679,9638327f54f8fb568cfc216f09076930d955997b442eb0ccabb239c3c216974a,New generic film-aperture icon,Optional branding only
+assets/cinematic-studio/15_original_keyart_creative_convergence.jpg,1672,941,480661,a10f3f0a787ef89b7a7e29630238f39a14d8ef9e7bcb3de1d653c1c9043f5ccf,Generated original cinema-studio illustration 1,Optional art library
+assets/cinematic-studio/16_original_keyart_studio_research.jpg,1672,941,486723,490d23667470ee3feb18bf56706f3d6722cb067052f1241bf99ce63b1d153834,Generated original cinema-studio illustration 2,Optional art library
+assets/cinematic-studio/TEMPLATE_editable_section_banner.svg,,,1334,a01975017944e7630bb96eb2eb5fab0e7128d3cf418fa1a4d07e481a61f8d20f,Editable vector section banner,Template library

@@ -33,6 +33,25 @@ Repositori ini berisi ekosistem **48 Modular & Interoperable AI Agent Skills** (
 
 ---
 
+## 🎞️ Studio Visual Tour — What Can This System Do?
+
+Visual map for the repository's documented creative workflows. These illustrations explain capabilities, optical math, and tool handoffs; **they do not mean that external applications, MCP servers, or multi-agent connections are automatically installed or active**.
+
+![Hermes Creative Universe — from an idea to a finished cut](./assets/cinematic-studio/01_creative_universe.jpg)
+
+![Six creative pillars: story, directing, camera, 3D, post-production, and creative research](./assets/cinematic-studio/02_six_creative_pillars.png)
+
+![Visual capability atlas covering scripting, storyboards, cinematography, photography, 3D previs, editing, sound, and R&D](./assets/cinematic-studio/03_capability_atlas.png)
+
+<details>
+<summary><strong>Explore the rest of the visual library (16 cinematic assets)</strong></summary>
+
+Browse [assets/cinematic-studio/](./assets/cinematic-studio/) for individual diagrams, two original studio illustrations, the new GitHub social preview and reusable templates. The four core images in `assets/` remain fully preserved.
+
+</details>
+
+---
+
 ## Daftar Isi
 
 1. [Kompatibilitas Native `CLI-Anything` (Tanpa Boros Token MCP!)](#1-kompatibilitas-native-cli-anything-tanpa-boros-token-mcp)
@@ -50,6 +69,9 @@ Repositori ini berisi ekosistem **48 Modular & Interoperable AI Agent Skills** (
 ## 1. Kompatibilitas Native `CLI-Anything` (Tanpa Boros Token MCP!)
 
 Menyambungkan belasan server MCP sekaligus menyuntikkan ratusan skema JSON ke *system prompt* di setiap giliran percakapan (**menghabiskan 15.000–40.000+ token bahkan sebelum Anda mengetik pesan**).
+
+
+![Documented ArtCraft and Blender toolchain grouped by creative phase](./assets/cinematic-studio/09_artcraft_blender_toolchain.png)
 
 Repositori ini kini **kompatibel penuh dengan [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)**:
 - **0 Token Idle Context**: Agen memanggil *harness* CLI berformat `--json` (`cli-anything-blender`, `cli-anything-kdenlive`, `cli-anything-shotcut`, `cli-anything-gimp`, `cli-anything-krita`, `cli-anything-inkscape`, `cli-anything-audacity`, `cli-anything-obs-studio`, `cli-anything-videocaptioner`, `cli-anything-comfyui`, `cli-anything-libreoffice`) dan CLI native (`ffmpeg`, `ffprobe`, `darktable-cli`, `exiftool`, atau `*-cli.exe` lokal) **hanya saat dibutuhkan lewat terminal**.
@@ -152,21 +174,41 @@ hmfa auto-check enable
 
 ## 6. Spesifikasi Kurikulum Riset `filmmaking-videography-photography-s2`
 
+![Five-stage filmmaking journey from development to delivery](./assets/cinematic-studio/04_five_phase_pipeline.png)
+
+
 Skill [`filmmaking-videography-photography-s2`](./skills/filmmaking-videography-photography-s2/SKILL.md) merangkum hasil riset terbuka dari literatur sekolah film S1–S2 (*USC, AFI, NYU Tisch, buku teks optik, penyuntingan, dan tata suara*) menjadi panduan penasihat terukur:
 
 - **Penyutradaraan & Skenario**: Struktur 3-Babak, *Story Circle*, *Save the Cat*, struktur 4-Babak Asia Timur **Kishōtenketsu**, serta *YouTube Retention Architecture* dalam format **Fountain** dan **Two-Column AV Script**, lengkap dengan *blocking* *I/A/L-Formation*, **180-Degree Axis**, dan **30-Degree Rule**.
+
+  ![Screenplay / storyboard / cinema frame](./assets/cinematic-studio/06_story_to_screen.png)
+
 - **Fisika Sinematografi & Fotografi**:
+
+  ![Optics / exposure / lighting / blocking](./assets/cinematic-studio/07_cinematography_lab.png)
+
   - **180-Degree Shutter Rule**: $t = \frac{1}{2 \times \text{FPS}}$ (`24 fps -> 1/48s` atau `1/50s` PAL; rekomendasi filter ND di luar ruang).
   - **Hyperfocal Distance**: $H = \frac{f^2}{N \cdot c} + f$ serta psikologi panjang fokus (`14mm` s/d `200mm`).
   - **Inverse Square Law ($I \propto 1/d^2$) & False Color IRE**: Rasio *Key-to-Fill* (`2:1` *Book Light*, `4:1` *Rembrandt*, `8:1+` *Chiaroscuro*) dan penempatan eksposur kulit pada `55–70 IRE` (guard `< 95 IRE`).
 - **Penyuntingan, Color Science & Psychoacoustic Audio**:
+
+  ![Edit, color and sound illustration](./assets/cinematic-studio/08_postproduction_suite.png)
+
   - **Walter Murch's Rule of Six**: Emosi (`51%`) > Cerita (`23%`) > Ritme (`10%`) > *Eye-Trace* (`7%`) > Bidang 2D (`5%`) > Ruang 3D (`4%`).
   - **4-Stage Color Grading** (*ACEScct / DaVinci Wide Gamut -> Skin-Tone Vectorscope I-Line -> Halation/Grain -> Rec.709 / sRGB*).
   - **Standar Loudness**: **`-14.0 LUFS` (`-1.0 dBTP`)** untuk YouTube/Shorts/Web dan **`-24.0 LKFS` (`-2.0 dBTP`)** untuk Cinema/Broadcast.
 
 ---
 
+
+![Example output formats: widescreen film, vertical video, still photography and documents](./assets/cinematic-studio/11_delivery_formats.png)
+
+---
+
 ## 7. Eternal Student & Prediksi Tren di `auto-curiousity-for-film-making`
+
+![Autonomous creative research cycle: discover, analyze, test, and hand off recipes](./assets/cinematic-studio/05_auto_curiousity_loop.png)
+
 
 Skill [`auto-curiousity-for-film-making`](./skills/auto-curiousity-for-film-making/SKILL.md) membentuk AI menjadi **pembelajar abadi (*Eternal Student*)** melalui 5 kapabilitas berkesinambungan:
 
@@ -201,6 +243,9 @@ Seluruh **48 *skills*** di direktori [`skills/`](./skills/) (ditambah *skill* ek
 
 ## 9. Mode Dewan Penasihat: Single-Agent (8 Lensa) vs Multi-Bot Crew
 
+![Two workflow modes: sequential single agent or coordinated multi-agent crew](./assets/cinematic-studio/10_single_multi_agent_modes.png)
+
+
 ![Creative Pipeline](./assets/artcraft_blender_pipeline.png)
 
 Diatur di dalam [`references/single-vs-multibot-crew-roles.md`](./skills/filmmaking-videography-photography-s2/references/single-vs-multibot-crew-roles.md):
@@ -208,6 +253,9 @@ Diatur di dalam [`references/single-vs-multibot-crew-roles.md`](./skills/filmmak
 - **Mode B — Multi-Bot Studio Advisory Crew**: Membagi peran penasihat & asisten teknis ke beberapa profil spesialis paralel (mis. profil *Director*, *Visual/DP*, *Technical/CLI*, *Story/Research*, dan *Producer/Pacing*) tanpa pernah mengambil alih kemudi artistik dari kreator manusia.
 
 ---
+
+
+![Hermes filmmaking principle: research, make, review, evolve](./assets/cinematic-studio/12_end_card.png)
 
 ## Lisensi & Kredit
 

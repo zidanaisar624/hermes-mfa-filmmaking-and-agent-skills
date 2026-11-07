@@ -1,0 +1,155 @@
+[
+  {
+    "path": "assets/cinematic-studio/01_creative_universe.jpg",
+    "width": 1600,
+    "height": 720,
+    "bytes": 431484,
+    "sha256": "ed618990f85f812b33620da6bec0073fdd288c7045c02637528da8254de4489b",
+    "description": "New cinematic opening illustration",
+    "recommended_placement": "README visual tour"
+  },
+  {
+    "path": "assets/cinematic-studio/02_six_creative_pillars.png",
+    "width": 1600,
+    "height": 310,
+    "bytes": 244974,
+    "sha256": "8a029461481f3753da7caf960b458c0445a703fe0c06a221beb25f64f4d1dd49",
+    "description": "Six capability pillars",
+    "recommended_placement": "README visual tour"
+  },
+  {
+    "path": "assets/cinematic-studio/03_capability_atlas.png",
+    "width": 1600,
+    "height": 925,
+    "bytes": 741217,
+    "sha256": "5bcd718e658a6eb70748a46a4e9bbdc4c9abb18405d2cb368415e0eaf032da40",
+    "description": "Eight concrete filmmaking capabilities",
+    "recommended_placement": "README visual tour"
+  },
+  {
+    "path": "assets/cinematic-studio/04_five_phase_pipeline.png",
+    "width": 1600,
+    "height": 790,
+    "bytes": 735234,
+    "sha256": "5932da3455c3df1be70731c924f1f5ab3e56913095f788c1bb3009c0ac9e041a",
+    "description": "5-stage production pipeline",
+    "recommended_placement": "Section 2 introduction"
+  },
+  {
+    "path": "assets/cinematic-studio/05_auto_curiousity_loop.png",
+    "width": 1600,
+    "height": 840,
+    "bytes": 781497,
+    "sha256": "d28e7b8f403bdccbaf2f57dfb4022dee5d5ff5067e0c81477628773413286d1a",
+    "description": "Research/discovery/sandbox/recipe handoff loop",
+    "recommended_placement": "Section 3 Auto-Curiousity"
+  },
+  {
+    "path": "assets/cinematic-studio/06_story_to_screen.png",
+    "width": 1600,
+    "height": 725,
+    "bytes": 615921,
+    "sha256": "7ac777df3ab3fb7fdf5416cb102d181dd2cd720198d30970533aa3bb724920cb",
+    "description": "Screenplay / storyboard / cinema frame",
+    "recommended_placement": "Section 2A"
+  },
+  {
+    "path": "assets/cinematic-studio/07_cinematography_lab.png",
+    "width": 1600,
+    "height": 740,
+    "bytes": 626684,
+    "sha256": "4b68cc3e242ba5b9be3b122016e12419063ed0e685f24103c735a181945b0a93",
+    "description": "Optics / exposure / lighting / blocking",
+    "recommended_placement": "Section 2B"
+  },
+  {
+    "path": "assets/cinematic-studio/08_postproduction_suite.png",
+    "width": 1600,
+    "height": 770,
+    "bytes": 629343,
+    "sha256": "5d7e3a221d4e707efb62df47aba583cc44999f620fa17244a3d0e7e22d43b376",
+    "description": "Edit, color and sound illustration",
+    "recommended_placement": "Section 2C"
+  },
+  {
+    "path": "assets/cinematic-studio/09_artcraft_blender_toolchain.png",
+    "width": 1600,
+    "height": 890,
+    "bytes": 763210,
+    "sha256": "6b4a6b3507518f20587522291075a59ddec9e1914f71dee10fdc1d994f692f81",
+    "description": "Documented tools by production role",
+    "recommended_placement": "Section 4 toolchain"
+  },
+  {
+    "path": "assets/cinematic-studio/10_single_multi_agent_modes.png",
+    "width": 1600,
+    "height": 730,
+    "bytes": 600850,
+    "sha256": "2dda5008e5bcd0af5a0afbc80c278dc297e87300cf6bf8d9e9437dca5dab2a10",
+    "description": "Single or multi-agent workflows (no named characters)",
+    "recommended_placement": "Section 5 modes"
+  },
+  {
+    "path": "assets/cinematic-studio/11_delivery_formats.png",
+    "width": 1600,
+    "height": 670,
+    "bytes": 637504,
+    "sha256": "bc1801f6ac73ed7cbac0c60f2d70fe336504f55440e675c3ac83dc772470f964",
+    "description": "Landscape, portrait, stills, docs",
+    "recommended_placement": "Between section 2 and 3"
+  },
+  {
+    "path": "assets/cinematic-studio/12_end_card.png",
+    "width": 1600,
+    "height": 400,
+    "bytes": 582914,
+    "sha256": "e5d087620092a6c3b1299b8b2207931492f0aa593d57acf5fe7926800008d787",
+    "description": "Creative iteration footer",
+    "recommended_placement": "Before credits"
+  },
+  {
+    "path": "assets/cinematic-studio/13_github_social_preview_1280x640.jpg",
+    "width": 1280,
+    "height": 640,
+    "bytes": 307679,
+    "sha256": "33346ff51eafce115397ebdd8653171cf9f63844968b784f2f517cdc7301b6a0",
+    "description": "Distinct repository social-preview artwork",
+    "recommended_placement": "GitHub Settings — Social preview"
+  },
+  {
+    "path": "assets/cinematic-studio/14_studio_mark.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 61679,
+    "sha256": "9638327f54f8fb568cfc216f09076930d955997b442eb0ccabb239c3c216974a",
+    "description": "New generic film-aperture icon",
+    "recommended_placement": "Optional branding only"
+  },
+  {
+    "path": "assets/cinematic-studio/15_original_keyart_creative_convergence.jpg",
+    "width": 1672,
+    "height": 941,
+    "bytes": 480661,
+    "sha256": "a10f3f0a787ef89b7a7e29630238f39a14d8ef9e7bcb3de1d653c1c9043f5ccf",
+    "description": "Generated original cinema-studio illustration 1",
+    "recommended_placement": "Optional art library"
+  },
+  {
+    "path": "assets/cinematic-studio/16_original_keyart_studio_research.jpg",
+    "width": 1672,
+    "height": 941,
+    "bytes": 486723,
+    "sha256": "490d23667470ee3feb18bf56706f3d6722cb067052f1241bf99ce63b1d153834",
+    "description": "Generated original cinema-studio illustration 2",
+    "recommended_placement": "Optional art library"
+  },
+  {
+    "path": "assets/cinematic-studio/TEMPLATE_editable_section_banner.svg",
+    "width": "",
+    "height": "",
+    "bytes": 1334,
+    "sha256": "a01975017944e7630bb96eb2eb5fab0e7128d3cf418fa1a4d07e481a61f8d20f",
+    "description": "Editable vector section banner",
+    "recommended_placement": "Template library"
+  }
+]
