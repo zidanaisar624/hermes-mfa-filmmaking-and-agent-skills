@@ -14,6 +14,14 @@ Repositori ini berisi paket **47 Modular AI Agent Skills** standar produksi (`SK
 
 ---
 
+## 🎬 HERMES — Your AI Film Crew
+
+![HERMES AI Film Crew](./assets/cinema_ai_social_preview.png)
+
+*From idea to final cut — autonomously.*
+
+---
+
 ## Daftar Isi
 
 1. [Arsitektur Duet Skill Utama (`Auto-Curiousity` ↔ `MFA Filmmaking`)](#1-arsitektur-duet-skill-utama-auto-curiousity--mfa-filmmaking)
