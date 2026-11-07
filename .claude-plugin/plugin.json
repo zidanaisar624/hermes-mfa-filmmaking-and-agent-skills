@@ -1,6 +1,6 @@
 {
   "name": "filmmaking-advisor-suite",
   "version": "2.0.0",
-  "description": "Research-based S1-S2 Filmmaking, Videography & Photography Advisor + Eternal-Student Auto-Curiosity + 48 Collaborative Agent Skills (Zero-MCP CLI-Anything Ready).",
+  "description": "48 Collaborative AI Skills: internet-researched S1-S2 Film, Cinematography & Photo Advisor (Co-Pilot respecting film students & crews, NOT a replacement) + Eternal-Student Auto-Curiosity & Trend R&D (CLI-Anything, ArtCraft & Blender 5.2+) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini & 100% free.",
   "skills": "./skills"
 }

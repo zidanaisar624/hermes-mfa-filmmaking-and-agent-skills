@@ -5,20 +5,23 @@
 [![Version](https://img.shields.io/badge/Version-2.0.0-2563EB?style=flat-square)](./CHANGELOG.md)
 [![Primary Target](https://img.shields.io/badge/Priority_%231-Hermes_Agent-7C3AED?style=flat-square)](https://github.com/NousResearch/hermes-agent)
 [![Universal Agents](https://img.shields.io/badge/Compatible-OpenClaw_%7C_ChatGPT_%7C_Claude_%7C_All_Agents-059669?style=flat-square)](#2-kompatibilitas-lintas-semua-ai-agent-hermes-1-openclaw-chatgpt-claude--lainnya)
-[![CLI-Anything](https://img.shields.io/badge/Zero_MCP_Token_Bloat-HKUDS%2FCLI--Anything_Ready-EA580C?style=flat-square)](https://github.com/HKUDS/CLI-Anything)
+[![CLI-Anything](https://img.shields.io/badge/Zero_MCP_Token_Bloat-HKUDS%2FCLI--Anything_%2B_ArtCraft_%26_Blender_5.2%2B-EA580C?style=flat-square)](https://github.com/HKUDS/CLI-Anything)
 [![Skills Included](https://img.shields.io/badge/Interoperable_Skills-48_Collaborative_Skills-10B981?style=flat-square)](./skills)
-[![Initiated by MuZA](https://img.shields.io/badge/Initiated_by-Muhammad_Zidan_Aisar_(MuZA)-F59E0B?style=flat-square)](https://github.com/zidanaisar624)
+[![Architected by Google Gemini](https://img.shields.io/badge/Architected_%26_Written_by-Google_Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white)](https://gemini.google.com)
+[![Initiated by MuZA](https://img.shields.io/badge/Initiated_%26_Experimented_by-Muhammad_Zidan_Aisar_(MuZA)-F59E0B?style=flat-square)](https://github.com/zidanaisar624)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square)](./LICENSE)
 
-Repositori ini berisi ekosistem **48 Modular & Interoperable AI Agent Skills** (`SKILL.md` + modul referensi teknis + *CLI-Anything Agent Harness*) yang dirancang utama (**Prioritas #1**) untuk **Hermes Agent**, sekaligus **100% kompatibel dengan OpenClaw, ChatGPT (Custom GPTs, Projects & Codex CLI), Claude (Claude Code, Desktop & Claude Projects), Cursor, dan seluruh agen berstandar `agentskills.io`**.
+> **Summary (English)**: *Suite of 48 Collaborative AI Agent Skills featuring an internet-researched S1–S2 (BFA/MFA) Filmmaking, Cinematography & Photography Advisor (built as a humble Co-Pilot with deep respect for film students & human film crews—NEVER a replacement) + Eternal-Student Auto-Curiosity R&D & Trend Forecasting Engine. Native CLI-Anything zero-MCP ready (with optional 15 ArtCraft apps & Blender 5.2+ integration) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini, and 100% free to use.*
+
+Repositori ini berisi ekosistem **48 Modular & Interoperable AI Agent Skills** (`SKILL.md` + modul referensi teknis + *CLI-Anything Agent Harness*) yang dirancang utama (**Prioritas #1**) untuk **Hermes Agent**, sekaligus **100% kompatibel dengan OpenClaw, ChatGPT (Custom GPTs, Projects & Codex CLI), Claude (Claude Code, Desktop & Claude Projects), Cursor, dan seluruh agen berstandar `agentskills.io`**, serta mendukung eksekusi hemat token via **`CLI-Anything`** maupun integrasi **15 aplikasi ArtCraft & Blender 5.2+**.
 
 > [!IMPORTANT]
-> ### Posisi Etis & Asal Pengetahuan: *Creative & Technical Advisor* — BUKAN Pengganti Pekerja Film!
-> Skill utama di repositori ini disusun dari **riset, penelusuran, dan sintesis terbuka terhadap kurikulum lulusan S1 (BFA/Sarjana) dan S2 (MFA/Magister) Perfilman, Penyutradaraan, Sinematografi (Videografi), serta Fotografi** berdasarkan literatur dan informasi publik yang tersedia di internet.
+> ### Penghormatan untuk Anak Kuliah Film & Pekerja Sinema: *Advisor* Riset, BUKAN Pengganti Manusia!
+> Skill utama di repositori ini disusun semata-mata dari **mencari tahu, menelusuri, dan merangkum informasi publik/silabus terbuka di internet mengenai apa yang dipelajari pada jenjang S1 (BFA/Sarjana) dan S2 (MFA/Magister) Perfilman, Sinematografi (Videografi), serta Fotografi**.
 >
-> **Sistem ini BUKAN pengganti sutradara, sinematografer, fotografer, editor, colorist, penata suara, atau pekerja film manusia.** AI tidak memiliki pengalaman hidup, intuisi lapangan, maupun empati artistik manusia. Seluruh *skill* di sini berfungsi murni sebagai **Advisor / Konsultan Riset & Co-Pilot Teknis** untuk membantu kreator manusia memahami landasan optik/dramaturgi, memvalidasi parameter teknis, membedah serta memprediksi tren visual, dan mengotomasi perintah *command-line* repetitif tanpa memakan banyak *token*. Keputusan kreatif tetap **100% milik manusia**.
+> Kami menaruh **rasa hormat setinggi-tingginya kepada mahasiswa kuliah film, lulusan sekolah sinema, serta seluruh kru film di lapangan**. Kumpulan catatan internet di dalam AI **tidak akan pernah sebanding dan tidak pernah diklaim setara** dengan jam terbang syuting nyata di lapangan (*on-set*), kepekaan rasa, latihan empati, diskusi ruang *editing*, maupun tempaan fisik dan mental anak kuliah film. Karena itu, **sistem ini BUKAN pengganti orang film**, melainkan hadir dengan rendah hati sebagai **Advisor / Teman Diskusi Riset & Co-Pilot Teknis**—untuk membantu mengecek hitungan optik/audio, mempelajari *update* aplikasi baru, membedah serta memprediksi tren visual, dan mengotomasi *command-line* repetitif. Jiwa karya dan keputusan kreatif tetap **100% milik manusia**.
 
-> **Asal-Usul Proyek (Attribution)**: Berawal dari eksperimen dan rasa penasaran **Muhammad Zidan Aisar (MuZA)** untuk merancang penasihat riset videografi/fotografi lintas-agen yang terus belajar mandiri layaknya mahasiswa abadi (*Eternal Student*), dengan arsitektur kurikulum, fisika optik/audio, sistem *CLI-Anything zero-token*, dan jaringan kolaborasi 48 *skill* yang disusun bersama **Google Gemini**.
+> **Asal-Usul Proyek (Attribution)**: Berawal dari eksperimen seru (*fun experiment*) dan rasa penasaran **Muhammad Zidan Aisar (MuZA)** untuk merancang penasihat riset videografi/fotografi lintas-agen yang terus belajar mandiri layaknya mahasiswa abadi (*Eternal Student*), diarsiteki dan ditulis bersama **Google Gemini**, serta **100% gratis untuk digunakan siapa saja**.
 
 ---
 
