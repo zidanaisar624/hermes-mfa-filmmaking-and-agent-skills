@@ -1,61 +1,54 @@
-# App Update & ArtCraft MCP Autonomous Discovery Protocol
+# Eternal-Student App Onboarding & Software Update Discovery Protocol
 
-Use this reference when executing **Stage 1** of `auto-curiousity-for-film-making` to discover, inspect, and sandbox-test new features or updates in the 15 ArtCraft MCP applications, Blender 5.2+ MCP, FFmpeg, and external videography or photography tools.
+Use this reference during **Stage 1** of `auto-curiousity-for-film-making` whenever **a brand-new application is connected** OR **an existing creative tool updates**—using zero-MCP **CLI-Anything (`HKUDS/CLI-Anything`)** and native CLIs first.
 
-## 1. Automated Schema & Update Detection Across the 16 Local Creative Servers
+## 1. Universal Creative Software Discovery Targets (No Hardcoded Paths)
 
-Whenever a session begins, an app update occurs, or an unfamiliar feature is mentioned, inspect the following targets without altering any LLM provider or model configuration:
+Run `hmfa --json preflight` to detect what actually lives on the current user's machine across all drives (`C:`, `D:`, `/usr/local/bin`, `/Applications`, `~/.local/bin`, etc.) without altering any LLM provider or model configuration:
 
-| Target App / Server | Local Path / Endpoint | Primary Videography & Photography Discovery Focus |
-| :--- | :--- | :--- |
-| **FilmCraft** (`filmcraft`) | `D:\ArtCraft\apps\filmcraft` | New timeline track types, NLE transition modes, proxy codecs, EDL/XML export flags, and color LUT slots in `.fcproj`. |
-| **EffectCraft** (`effectcraft`) | `D:\ArtCraft\apps\effectcraft` | New procedural VFX nodes, particle emitters, optical flow / motion blur shaders, rotoscoping masks, and bezier keyframe easing modes in `.ecproj`. |
-| **PhotoCraft** (`photocraft`) | `D:\ArtCraft\apps\photocraft` | New RAW demosaicing algorithms, frequency separation filters, healing/inpainting tools, smart-object blend modes, and lens-distortion profiles. |
-| **LightCraft** (`lightcraft`) | `D:\ArtCraft\apps\lightcraft` | New color-grading wheels (Lift/Gamma/Gain/Offset), HSL qualifiers, film halation/grain emulation, tone-mapping curves, and batch LUT exporters. |
-| **SoundCraft** (`soundcraft`) | `D:\ArtCraft\apps\soundcraft` | New DSP effects, parametric EQ bands, sidechain compression envelopes, convolution reverb IRs, spectral de-noisers, and LUFS metering tools. |
-| **DesignCraft / FigCraft / VectorCraft** | `D:\ArtCraft\apps\...` | New kinetic typography presets, lower-third templates, storyboard frame generators, SVG path animators, and YouTube thumbnail layout grids. |
-| **WordCraft / GridCraft / DeckCraft / PDFCraft** | `D:\ArtCraft\apps\...` | New screenplay Fountain/AV-script formatters, call-sheet/budget formulas, pitch-deck slide layouts, and print-ready storyboard book exporters. |
-| **CADCraft / SolidCraft** | `D:\ArtCraft\apps\...` | New 3D set-design primitives, studio lighting rig dimensions, and camera dolly/crane mechanical geometry exports. |
-| **CraftAnything** (`craft_anything`) | `D:\ArtCraft\apps\craft_anything` | New cross-app orchestration macros and multi-app pipeline templates. |
-| **Blender 5.2+ LTS MCP** (`blender`) | `127.0.0.1:9876` / `19876` | New Geometry Nodes, Compositor nodes, Cycles/EEVEE Next lighting shaders, AgX/Filmic color management views, and camera rig constraints. |
-| **External Video/Photo CLI & Apps** | System PATH / Local Install | New `ffmpeg -filters` (e.g., `libplacebo`, `lut3d`, `afade`, `ebur128`), `opencv`, `darktable-cli`, `rawtherapee-cli`, `kdenlive`, or `davinci` scripts. |
+| Software Category | CLI-Anything Harnesses (`--json`) | Native / Local Suite CLIs | Primary Eternal-Student Learning Focus |
+| :--- | :--- | :--- | :--- |
+| **3D, Set & Previz** | `cli-anything-blender`, `cli-anything-freecad` | `blender --background`, `cadcraft-cli`, `solidcraft-cli` | New Geometry/Compositor nodes, Cycles/EEVEE shaders, AgX/ACES views, camera lens/rig constraints. |
+| **NLE Video & VFX** | `cli-anything-kdenlive`, `cli-anything-shotcut`, `cli-anything-videocaptioner` | `ffmpeg`, `ffprobe`, `scenedetect`, `filmcraft-cli`, `effectcraft-cli` | New timeline transitions, ASS/kinetic subtitle capabilities, optical flow/speed-ramp curves, codecs. |
+| **Photography, RAW & Color** | `cli-anything-gimp`, `cli-anything-krita`, `cli-anything-comfyui` | `darktable-cli`, `rawtherapee-cli`, `exiftool`, `magick`, `photocraft-cli`, `lightcraft-cli` | RAW demosaicing, tone-mappers (AgX/Sigmoid/Filmic), halation/grain modules, ICC/LUT pipelines. |
+| **Vector, Layout & Diagrams** | `cli-anything-inkscape`, `cli-anything-drawio`, `cli-anything-mermaid` | `graphviz`, `designcraft-cli`, `figcraft-cli`, `vectorcraft-cli` | SVG typography, HUD callouts, storyboard frame grids, lighting & blocking topology diagrams. |
+| **Audio & Loudness** | `cli-anything-audacity` | `ffmpeg` (`ebur128`/`loudnorm`), `sox`, `soundcraft-cli` | Spectral de-noisers, dynamic EQ sidechaining, compressor envelopes, EBU R128 / LUFS limiters. |
+| **Capture & Docs** | `cli-anything-obs-studio`, `cli-anything-openscreen`, `cli-anything-libreoffice` | `wordcraft-cli`, `gridcraft-cli`, `deckcraft-cli`, `pdfcraft-cli` | Lossless screen/studio recording, Fountain screenplay export, stripboard/budget formulas. |
 
-## 2. Step-by-Step Introspection Workflow
+---
 
-1. **Enumerate Tools & Parameters (Schema Diffing)**:
-   - Query the MCP server's tool list and inspect each tool's input schema (`properties`, `enum`, `default`, `description`).
-   - Compare against `curiosity_ledger/app_capabilities_snapshot.json`.
-   - When inspecting local Python/CLI source folders under `D:\ArtCraft`, run read-only inspection commands:
+## 2. Protocol A: Onboarding ANY Newly Connected Application (*Tiap Tambah Aplikasi Baru*)
 
-     ```powershell
-     # Check recent file modifications or updates in ArtCraft
-     Get-ChildItem -Path "D:\ArtCraft" -Recurse -File | Where-Object { $_.LastWriteTime -gt (Get-Date).AddDays(-14) } | Select-Object FullName, LastWriteTime
-     ```
+Whenever the user installs, links, or asks you to use **any new app** (even one never seen before, e.g., Natron, DaVinci Resolve CLI, VapourSynth, Nuke, Reaper, TouchDesigner, HyperFrames, Remotion, or a new GitHub tool):
 
-     ```bash
-     # Check newly available FFmpeg video and audio filters
-     ffmpeg -hide_banner -filters | grep -E "lut|color|blend|blur|loudnorm|afade|acompressor"
-     ```
+1. **Step 1 — Fingerprint & Snapshot Registration**:
+   ```bash
+   hmfa --json curiosity onboard-app --app <app-binary-or-name> --ledger ./curiosity_ledger
+   ```
+   - Inspect `--version`, `--help`, subcommands, supported input/output file extensions, and exit codes.
+2. **Step 2 — Check CLI-Anything Hub or Build a Lightweight CLI Wrapper**:
+   - Check `cli-hub search <keyword>` (if `cli-anything-hub` is installed) to see if an agent-ready `--json` harness already exists.
+   - If the app is an open-source codebase or scriptable app without a harness, collaborate with `cli-anything-filmmaking-bridge`, `analyze-project`, and `explore-code` (or `cli-anything-hermes`) to map its CLI/Python/Lua backend without requiring an MCP server.
+3. **Step 3 — Documentation & Community Knowledge Study**:
+   - Collaborate with `deep-research` / `github-research` / `firecrawl-deep-research` to study the app's official documentation, color/audio pipeline assumptions, and common gotchas (e.g., single-process database locks, color-space gamma shifts, headless flags).
+4. **Step 4 — Safe "Hello Asset" Sandbox Calibration**:
+   - Inside `curiosity_ledger/sandbox_tests/<app-name>/`, run a minimal non-destructive smoke test (e.g., render 1 test frame, transcode a 2-second test clip, or measure a 3-second WAV stem) and verify the output file with `ffprobe` / `exiftool`.
+   - Record verified syntax and gotchas into `curiosity_ledger/connected_apps_registry.json` and `curiosity_ledger/app_and_update_learning_log.md`.
 
-2. **Formulate a Feature Hypothesis**:
-   - State clearly what the new tool or parameter claims to do (e.g., *"EffectCraft added a `chromatic_aberration_radial` parameter with range `0.0` to `5.0`; hypothesis: simulates vintage anamorphic lens edge fringing without softening the center subject"*).
+---
 
-## 3. Safe Micro-Sandbox Testing Protocol (`Eksperimen Mikro Kotak Pasir`)
+## 3. Protocol B: Learning Every Software Update (*Tiap Ada Update Aplikasi*)
 
-Before recommending or using a newly discovered feature in a real production, validate it in an isolated sandbox directory (`curiosity_ledger/sandbox_tests/`):
-
-1. **Create a Standardized Test Asset**:
-   - **Video/VFX Test**: A 2-second, 24fps (`48 frames`) 1080p clip containing a skin-tone subject chart (`60 IRE`), a grayscale step-wedge (`0-100 IRE`), and a moving edge target.
-   - **Photo/Color Test**: A single 16-bit test frame with highlight roll-off, shadow detail, and portrait skin tones.
-   - **Audio Test**: A 3-second voice stem (`-18 LUFS`) layered over a background ambient pad (`-30 LUFS`).
-
-2. **Execute a 3-Point Parameter Sweep**:
-   - Run the tool at **Low (20% of range)**, **Default (nominal)**, and **Extreme (90-100% of range)**.
-   - Measure objective outcomes:
-     - Does it clip highlights (`>100 IRE`) or crush shadows (`<0 IRE`)?
-     - Does it shift skin tones off the Vectorscope skin-tone line?
-     - Does it introduce audio true-peak clipping (`>-1.0 dBTP`)?
-     - How many milliseconds per frame does it add to render time?
-
-3. **Promote Verified Findings to the Curiosity Ledger**:
-   - Record the optimal "Sweet Spot" parameter range (e.g., *"Sweet spot for `chromatic_aberration_radial` is `0.35 - 0.65`; values above `1.5` degrade subtitle readability"*) in `curiosity_ledger/artcraft_and_app_updates_log.md` and `curiosity_ledger/tested_recipes_registry.json`.
+1. **Automated Capability Diffing**:
+   - Re-run `hmfa --json curiosity onboard-app --app <app> --ledger ./curiosity_ledger`.
+   - If `status` returns `"updated_capabilities_detected"`, inspect release notes / `CHANGELOG.md` / `ffmpeg -filters` / `--help` diff to isolate newly added flags, filters, or nodes.
+2. **Formulate an Testable Feature Hypothesis**:
+   - Example: *"Version update added `halation_threshold` (`0.0–1.0`); hypothesis: isolates red-channel film scatter to specular highlights above `75 IRE` without muddying `60 IRE` skin tones."*
+3. **3-Point Micro-Sandbox Parameter Sweep**:
+   - Test on a disposable 2-second synthetic/reference asset in `curiosity_ledger/sandbox_tests/` at **Low (`20%`)**, **Default**, and **Extreme (`90–100%`)**:
+     - Check highlight/black clipping (`<5 IRE` or `>95 IRE`),
+     - Check Vectorscope skin-tone stability,
+     - Check audio True Peak (`<= -1.0 dBTP`),
+     - Measure render-time overhead per frame.
+4. **Promote Sweet-Spot Recipe**:
+   - Save the verified sweet-spot range to `curiosity_ledger/tested_recipes_registry.json` so `filmmaking-videography-photography-s2` can advise the creator immediately.

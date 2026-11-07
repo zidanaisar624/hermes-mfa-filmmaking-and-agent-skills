@@ -1,27 +1,31 @@
-# Curiosity Ledger Schema & Seamless Handoff to `filmmaking-videography-photography-s2`
+# Curiosity Ledger Schema & Bidirectional Handoff to `filmmaking-videography-photography-s2`
 
-Use this reference when executing **Stage 3** and **Stage 4** of `auto-curiousity-for-film-making` to store self-learned discoveries and connect them seamlessly (`berkesinambungan`) with `filmmaking-videography-photography-s2`.
+Use this reference when executing **Stage 5** of `auto-curiousity-for-film-making` to persist Eternal-Student discoveries and connect them seamlessly (`berkesinambungan`) with `filmmaking-videography-photography-s2` and all peer skills.
 
-## 1. Local Knowledge Base Structure (`curiosity_ledger/`)
+## 1. Persistent Eternal-Student Knowledge Base (`curiosity_ledger/`)
 
-Maintain a structured directory so every autonomous discovery persists across sessions and can be loaded immediately during film or photo production:
+Initialize or inspect anytime via `hmfa --json curiosity init --ledger ./curiosity_ledger`:
 
 ```text
 curiosity_ledger/
-├── app_capabilities_snapshot.json       # Known tools, parameters, and versions across 15 ArtCraft apps + Blender + CLI
-├── artcraft_and_app_updates_log.md      # Chronological log of newly discovered app features & sandbox test results
-├── internet_trend_playbook.md           # Deconstructed viral & cinema trends using the 6-Layer Matrix
-├── tested_recipes_registry.json         # Validated, ready-to-run Recipe Cards for filmmaking-videography-photography-s2
-└── sandbox_tests/                       # Isolated 2-second test clips, test frames, and parameter sweep outputs
+├── connected_apps_registry.json          # Dynamically onboarded creative apps, versions, CLI-Anything harnesses & sandbox paths
+├── app_capabilities_snapshot.json        # Version & --help hashes to detect updates across any connected app
+├── app_and_update_learning_log.md        # Human-readable log of newly learned apps, updates & 3-point sandbox sweeps
+├── internet_trend_and_forecast_playbook.md # 6-Layer deconstructed trends + 5-Signal horizon analyses
+├── tested_recipes_registry.json          # Verified Cinematic Recipe Cards ready for filmmaking-videography-photography-s2
+├── trend_forecasts.json                  # Predicted 1-12 month trends with confidence scores & falsification criteria
+└── sandbox_tests/                        # Isolated 2-second test clips, 16-bit test frames & parameter sweeps (never live files)
 ```
+
+---
 
 ## 2. Standardized Cinematic Recipe Card Schema (`tested_recipes_registry.json`)
 
-Every newly learned app feature or internet trend is saved as a structured Recipe Card:
+Every verified app capability or deconstructed/predicted trend is stored as a portable, zero-MCP-ready **Recipe Card**:
 
 ```json
 {
-  "recipe_id": "trend_2026_warm_halation_booklight_intro",
+  "recipe_id": "trend_warm_halation_booklight_intro",
   "title": "Warm 35mm Halation + Soft Book-Light Retention Hook",
   "source_type": "hybrid_trend_and_app_update",
   "energy_tier": "Tier 1 (Calm / Intimate) or Tier 2 (Balanced Narrative)",
@@ -32,45 +36,41 @@ Every newly learned app feature or internet trend is saved as a structured Recip
     "lens_mm": 35,
     "shutter_angle_deg": 180,
     "lighting_ratio": "2:1 Book Light (3400K Key + 4800K Soft Fill, Skin at 62 IRE)",
-    "color_recipe": "Kodak 2383 curve + 4px Red-Orange Edge Halation + 8% Highlight Bloom",
+    "color_recipe": "Film print curve + 4px Red-Orange Edge Halation + 8% Highlight Bloom",
     "vfx_motion": "Slow 1.00x to 1.06x cubic-bezier(0.22, 1.0, 0.36, 1.0) push-in over 3.8s",
-    "audio_master": "-14 LUFS dialogue, -28 LUFS warm vinyl/room tone, -4dB sidechain ducking at 2.5kHz"
+    "audio_master": "-14.0 LUFS dialogue, -28 LUFS room tone, -4dB sidechain ducking at 2.5kHz"
   },
-  "artcraft_and_blender_execution": {
-    "blender": "Set 35mm camera DOF F/2.0; place Area Light bounce + diffusion plane at 45 deg",
-    "lightcraft": "Apply Halation radius=4.0, threshold=0.82; set Skin IRE target=62",
-    "effectcraft": "Add scale keyframe 100% -> 106% with cubic-bezier(0.22, 1.0, 0.36, 1.0)",
-    "filmcraft": "Insert 8-frame J-cut audio lead into Scene 1 track",
-    "soundcraft": "Enable parametric sidechain ducking -4dB at 2500Hz; master limiter -1.0 dBTP / -14 LUFS"
+  "zero_mcp_cli_execution": {
+    "optics_check": "hmfa --json optics --focal-mm 35 --f-stop 2.0 --fps 24 --lighting high_key",
+    "blender_previz": "cli-anything-blender / blender --background: 35mm DOF F/2.0, 45-deg bounce Area Light",
+    "photo_color": "darktable-cli / cli-anything-gimp / lightcraft-cli: Halation r=4.0, Skin IRE=62",
+    "nle_timeline": "cli-anything-kdenlive / ffmpeg / filmcraft-cli: 8-frame J-cut audio lead + cubic-bezier push-in",
+    "audio_master": "cli-anything-audacity / ffmpeg loudnorm=I=-14:TP=-1.0 / soundcraft-cli"
   },
   "sandbox_verified": true,
-  "notes": "Tested in sandbox_tests/; zero highlight clipping and preserves subtitle legibility."
+  "advisory_notes": "Tested in sandbox_tests/; zero highlight clipping and preserves clean caption legibility."
 }
 ```
 
-## 3. Bidirectional Continuity Protocol with `filmmaking-videography-photography-s2`
+---
 
-`auto-curiousity-for-film-making` and `filmmaking-videography-photography-s2` form a two-skill symbiotic system:
+## 3. Bidirectional Continuity Loop (`Eternal Student` <-> `Filmmaking Advisor`)
 
 ```text
-[auto-curiousity-for-film-making]                    [filmmaking-videography-photography-s2]
-  1. Detects new ArtCraft/Blender/App update  --->     Receives verified new tool parameters
-  2. Reverse-engineers internet visual trend  --->     Applies 6-Layer Recipe Card in Phases 1-5
-  3. Runs safe 2-sec sandbox verification     <---     Requests R&D when hitting a novel style/effect
+[auto-curiousity-for-film-making]                      [filmmaking-videography-photography-s2]
+  1. Onboards new apps & tests app updates     --->      Advises creator with verified CLI parameters
+  2. Deconstructs & predicts visual trends     --->      Offers optional Recipe Cards & Early-Mover insights
+  3. Collaborates across all 48+ peer skills   <---      Escalates novel creative/technical R&D questions
 ```
 
-### How 1 Bot vs 5 Bots Execute the Curiosity-to-Production Loop
+### Execution Across Single-Agent vs. Multi-Bot Topologies
 
-#### Mode A: Single-Bot "One-Man Studio"
-When a single bot handles an entire film, YouTube video, or photography project:
-1. **Step 0 (Curiosity Check - 60 Seconds)**: Before starting Phase 1 of `filmmaking-videography-photography-s2`, the bot checks `curiosity_ledger/tested_recipes_registry.json` and runs a quick schema check if any ArtCraft/external tool was recently updated.
-2. **Step 1-5 (Production Execution)**: The bot executes all 8 film crew roles in `filmmaking-videography-photography-s2`, embedding the selected Recipe Cards directly into the AV script, shot list, lighting diagram, color grade, and sound mix.
-3. **Post-Project Retrospective**: Any new technique discovered during production is saved back into `curiosity_ledger/` for future projects.
-
-#### Mode B: Multi-Bot Studio Crew (5 Hermes Bots)
-When the 5 Hermes bots collaborate:
-- **Kiki-Chii (Visual & Trend Explorer)**: Hunts for fresh cinematography, photography, thumbnail, and color-grading trends on the internet; tests new filters in `photocraft`, `lightcraft`, and `designcraft`.
-- **Shikaku Nara (Technical & App-Update Architect)**: Runs automated schema diffs on all 15 ArtCraft MCP servers, Blender 5.2+ MCP, and FFmpeg; executes the 3-point sandbox parameter sweeps in `filmcraft`, `effectcraft`, and `soundcraft` to verify stability and render speed.
-- **Shizuka Hiratsuka (Directing & Narrative Gatekeeper)**: Reviews Kiki-Chii's trend discoveries and Shikaku's technical findings to select only the techniques that strengthen story emotion (Walter Murch's 51% Emotion rule) for `filmmaking-videography-photography-s2`.
-- **Val (Curiosity Archivist & Analyst)**: Writes clean documentation and empirical test summaries into `curiosity_ledger/artcraft_and_app_updates_log.md` and `internet_trend_playbook.md`.
-- **Yukino Yukinoshita (Well-Being & Pace Coordinator)**: Schedules curiosity experiments in low-cognitive-load micro-steps (`Swiss Cheese Method` / `2-Minute Activation`) so learning new tools and trends always feels exciting and restorative for Zidan, never overwhelming.
+- **Mode A — Single-Agent Advisor (Hermes, OpenClaw, ChatGPT, Claude, Codex)**:
+  1. **Pre-Advisory Check**: Inspects `curiosity_ledger/` (and runs `hmfa preflight` if local execution is requested) before advising across the 8 film-school department lenses.
+  2. **Post-Session Learning**: Logs any newly connected tool, discovered parameter sweet spot, or trend insight back into `curiosity_ledger/`.
+- **Mode B — Multi-Bot Advisory Crew (e.g., 5 Specialist Profiles)**:
+  - **Visual / DP Bot (`kiki-chii`)**: Leads visual trend scouting, color/photography tests, and creative remixing (`creative-thinking-for-research`, `novelty-assessment`).
+  - **Technical / Post Bot (`shikaku`)**: Leads `hmfa curiosity onboard-app`, CLI-Anything harness checks, 3-point sandbox sweeps, and `ffmpeg`/Blender benchmarks.
+  - **Director Bot (`shizuka`)**: Filters discovered tools and predicted trends through **Walter Murch's 51% Emotion rule** so advice always serves human story truth.
+  - **Research / Story Bot (`val`)**: Coordinates `deep-research`, `literature-review`, and `data-analysis` to document `curiosity_ledger/` logs and trend forecasts.
+  - **Producer / Pace Bot (`yukino`)**: Paces R&D in calm, low-cognitive-load micro-steps (`focus-my-energy`) so continuous learning stays restorative and enjoyable.

@@ -1,6 +1,7 @@
 ---
 name: parenting-6d-gad-mdd
 description: Applies Ellen Skinner's 6 Dimensions of Parenting (Warmth, Structure, Autonomy Support vs Rejection, Chaos, Coercion) combined with CBT, ACT, Behavioral Activation, and Gemini Notebook Thinking Tools to support users with GAD and MDD.
+version: 2.0.0
 ---
 
 # parenting-6d-gad-mdd
@@ -48,3 +49,8 @@ Zidan bukan anak yatim piatu, melainkan sedang menghadapi dinamika/masalah relas
    - **Sweta Rai / Bari (2014)** (`Bari2014_Student_Dropout_Decision_Tree.pdf`): Aturan pohon keputusan (*white-box rules*) berbasis *Entropy & Information Gain*.
    - **Al-Mushayt et al. (2024)** (`Al_Mushayt2024_Early_Detection_Student_Dropout_Machine_Learning.pdf`): Deteksi dini mahasiswa berisiko *dropout*.
 
+## Cross-Skill Synergy & Eternal-Student Collaboration
+
+- **Synergy Role**: Provides warm, structured, autonomy-supportive pacing so creative exploration and production remain restorative and pressure-free.
+- **Universal Agent & CLI Compatibility**: Works natively across **Hermes Agent (#1)**, **OpenClaw**, **Claude**, **ChatGPT / Codex**, and `agentskills.io` environments using zero-MCP CLI workflows (`cli-anything-filmmaking-bridge` / `hmfa`) whenever local tool execution is needed.
+- **Advisory Principle**: Operates as a research-grounded human-in-the-loop advisor—supporting, never replacing, human creators and domain professionals.

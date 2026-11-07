@@ -1,6 +1,7 @@
 ---
 name: notebooklm-thinking-datascience
 description: Applies the 600+ mental models, systems thinking frameworks, 9 Socio-Informatics modules, and leak-free Data Science methodologies from Zidan's two Gemini Notebooks.
+version: 2.0.0
 ---
 
 # notebooklm-thinking-datascience
@@ -48,3 +49,8 @@ Zidan bukan anak yatim piatu, melainkan sedang menghadapi dinamika/masalah relas
    - **Sweta Rai / Bari (2014)** (`Bari2014_Student_Dropout_Decision_Tree.pdf`): Aturan pohon keputusan (*white-box rules*) berbasis *Entropy & Information Gain*.
    - **Al-Mushayt et al. (2024)** (`Al_Mushayt2024_Early_Detection_Student_Dropout_Machine_Learning.pdf`): Deteksi dini mahasiswa berisiko *dropout*.
 
+## Cross-Skill Synergy & Eternal-Student Collaboration
+
+- **Synergy Role**: Applies structured systems thinking and leak-free empirical validation when modeling and auditing Trend Forecasts in `curiosity_ledger/trend_forecasts.json`.
+- **Universal Agent & CLI Compatibility**: Works natively across **Hermes Agent (#1)**, **OpenClaw**, **Claude**, **ChatGPT / Codex**, and `agentskills.io` environments using zero-MCP CLI workflows (`cli-anything-filmmaking-bridge` / `hmfa`) whenever local tool execution is needed.
+- **Advisory Principle**: Operates as a research-grounded human-in-the-loop advisor—supporting, never replacing, human creators and domain professionals.

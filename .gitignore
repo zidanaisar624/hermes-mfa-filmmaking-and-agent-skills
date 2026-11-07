@@ -5,9 +5,15 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Local sandbox test outputs
-curiosity_ledger/sandbox_tests/*.mp4
-curiosity_ledger/sandbox_tests/*.wav
-curiosity_ledger/sandbox_tests/*.png
+# Local sandbox test outputs & user runtime ledgers
+curiosity_ledger/
+.hmfa_install_meta.json
+
+# Python packaging & bytecode
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+agent-harness/*.egg-info/
+build/
+dist/

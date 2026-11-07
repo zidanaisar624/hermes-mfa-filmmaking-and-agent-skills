@@ -1,32 +1,40 @@
 # ==============================================================================
-# SKRIP OTOMATIS UPLOAD KE GITHUB (POWERSHELL)
-# Dibuat oleh Gemini untuk keisengan Muhammad Zidan Aisar (MuZA)
+# SKRIP OTOMATIS UPLOAD / UPDATE KE GITHUB (POWERSHELL - ASCII SAFE)
+# Mendukung inisialisasi baru maupun push update rutin ke repo yang sudah ada!
 # ==============================================================================
 param(
-    [Parameter(Mandatory=$true, HelpMessage="Masukkan URL repo GitHub-mu, misal: https://github.com/username/hermes-filmmaking-skills.git")]
-    [string]$RepoUrl
+    [Parameter(Mandatory = $false)]
+    [string]$RepoUrl = "https://github.com/zidanaisar624/hermes-mfa-filmmaking-and-agent-skills.git",
+    [Parameter(Mandatory = $false)]
+    [string]$Message = "feat(v2.0): add CLI-Anything zero-MCP bridge, universal multi-agent auto-discovery, Eternal-Student trend forecasting, cross-skill synergy & terminal self-updater"
 )
 
-Write-Host "🚀 Memulai inisialisasi Git untuk Hermes S2 Filmmaking & 47 Skills..." -ForegroundColor Cyan
+$ErrorActionPreference = "Stop"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-git init
-git branch -M main
-git add .
+Write-Host "[*] Preparing upload/update to GitHub ($RepoUrl)..." -ForegroundColor Cyan
 
-$commitMsg = @"
-feat: add S1-S2 MFA Filmmaking, Auto-Curiousity & 47 AI Agent Skills suite
+if (-not (Test-Path ".git")) {
+    git init
+    git branch -M main
+}
 
-Berawal dari keisengan dan rasa penasaran Muhammad Zidan Aisar (MuZA),
-dirancang dan ditulis secara lengkap oleh Google Gemini.
+$existingOrigin = git remote get-url origin 2>$null
+if (-not $existingOrigin) {
+    git remote add origin $RepoUrl
+} elseif ($existingOrigin -ne $RepoUrl) {
+    git remote set-url origin $RepoUrl
+}
 
-Co-authored-by: Gemini <gemini@google.com>
-"@
+git add -A
+$status = git status --porcelain
+if (-not $status) {
+    Write-Host "[i] No file changes to commit." -ForegroundColor Yellow
+    exit 0
+}
 
-git commit -m $commitMsg
-
-git remote remove origin 2>$null
-git remote add origin $RepoUrl
-Write-Host "⬆️ Mengunggah (push) ke $RepoUrl ..." -ForegroundColor Yellow
+git commit -m $Message
+Write-Host "[*] Pushing to $RepoUrl ..." -ForegroundColor Yellow
 git push -u origin main
 
-Write-Host "✅ Selesai! Repositori berhasil diunggah ke GitHub!" -ForegroundColor Green
+Write-Host "[OK] Done! Repository updated on GitHub and ready for users via 'hmfa update'!" -ForegroundColor Green

@@ -1,0 +1,17 @@
+{
+  "name": "hermes-mfa-filmmaking-and-agent-skills",
+  "owner": {
+    "name": "Muhammad Zidan Aisar (MuZA) & Google Gemini"
+  },
+  "metadata": {
+    "description": "Research-based S1-S2 Filmmaking & Photography Advisor + Eternal-Student Auto-Curiosity + 48 Collaborative Skills with CLI-Anything zero-MCP execution."
+  },
+  "plugins": [
+    {
+      "name": "filmmaking-advisor-suite",
+      "source": "./",
+      "description": "S1-S2 BFA/MFA Filmmaking & Photography Research Advisor, Trend Predictor & CLI-Anything Bridge.",
+      "category": "creative"
+    }
+  ]
+}

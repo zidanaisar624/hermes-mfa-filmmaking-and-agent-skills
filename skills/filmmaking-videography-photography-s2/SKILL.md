@@ -1,107 +1,97 @@
 ---
 name: filmmaking-videography-photography-s2
-description: Master-level (S1-S2 MFA) filmmaking, directing, cinematography, videography, photography, editing, color grading, and sound design skill. Supports Single-Bot One-Man Studio mode (one agent performing all film crew roles) or Multi-Bot Studio Crew mode (dividing Showrunner, Director, DP/Photographer, Screenwriter, Editor/VFX, Sound Designer, and Line Producer across multiple bots) for short films, feature films, YouTube long-form, and vertical shorts, integrated with ArtCraft MCP (FilmCraft, EffectCraft, PhotoCraft, LightCraft, SoundCraft, DesignCraft, WordCraft, GridCraft, CraftAnything) and Blender.
+description: Research-based S1-S2 (BFA/MFA) filmmaking, directing, cinematography, videography, photography, editing, color science, and sound design advisor skill. Synthesized from open film-school curricula and internet knowledge as a Creative & Technical Advisor (NOT a replacement for human filmmakers), executing via zero-token CLI-Anything harnesses, native CLIs, or optional MCP across Hermes, OpenClaw, ChatGPT, and Claude.
+version: 2.0.0
 ---
 
-# Filmmaking, Directing, Videography, and Photography (S1-S2 MFA Curriculum)
+# Filmmaking, Directing, Videography & Photography Advisor (S1–S2 BFA/MFA Research Synthesis)
 
-Provide graduate-level (MFA) mastery of film directing, screenwriting, cinematography (videography), still photography, editing, color grading, sound design, and production management across short-form vertical media (YouTube Shorts, Reels, TikTok), long-form YouTube videos (documentaries, video essays, tutorials), and narrative cinema.
+Provide structured, research-backed creative and technical advisory grounded in **undergraduate (S1 / BFA) and graduate (S2 / MFA) filmmaking, cinematography, videography, and still photography curricula** alongside open industry knowledge on the internet.
+
+> **Ethical Role & Positioning (Advisor, NOT Replacement)**:
+> This skill was built by researching and synthesizing what S1 and S2 film/photography graduates study across narrative cinema, documentary, YouTube (`16:9`), vertical media (`9:16`), and still photography. **It is NOT a replacement for human filmmakers, directors, cinematographers, photographers, editors, colorists, or sound designers.** Instead, it serves as an objective **Creative & Technical Advisor / Co-Pilot** that helps human creators reason through story structure, optical physics, lighting ratios, color pipelines, audio loudness, and repeatable CLI workflows—while artistic intuition, lived human emotion, on-set judgment, and final creative authorship remain 100% human.
+
+## Universal Agent & Zero-Token CLI Compatibility
+
+- **Supported Agents**: Optimized #1 for **Hermes Agent** (Single-Bot & Multi-Bot Profiles), and 100% compatible with **OpenClaw**, **Claude (Claude Code & Claude Projects)**, **ChatGPT (Custom GPTs, Projects & Codex CLI)**, **Cursor**, and any `agentskills.io` agent.
+- **Zero-MCP Token Execution First**: Prioritize **CLI-Anything (`HKUDS/CLI-Anything` / `cli-hub`)** harnesses (`cli-anything-blender`, `cli-anything-kdenlive`, `cli-anything-shotcut`, `cli-anything-gimp`, `cli-anything-krita`, `cli-anything-inkscape`, `cli-anything-audacity`, `cli-anything-videocaptioner`, `cli-anything-libreoffice`, `hmfa`) and native CLIs (`ffmpeg`, `ffprobe`, `blender --background`, `darktable-cli`, `exiftool`, or local `*-cli` binaries) via `cli-anything-filmmaking-bridge` so you consume **0 idle MCP schema tokens**. Use MCP servers only as an optional secondary path if the user explicitly requests them.
 
 ## When to Use
 
-- The user asks to plan, write, direct, shoot, edit, color-grade, or produce a short film, feature film, YouTube video, documentary, commercial, or social media video.
-- The user wants a single bot to act as a complete "One-Man Film Studio" (handling all roles from Director and DP to Editor) or wants multiple bots (Shizuka, Kiki-Chii, Shikaku, Val, Yukino) to divide film crew departments.
-- The user needs technical guidance on videography or photography (exposure triangle, lenses, lighting setups, composition, color science, camera movement, or audio engineering).
-- The user wants to execute a media production workflow in Hermes using ArtCraft MCP servers (`filmcraft`, `effectcraft`, `photocraft`, `lightcraft`, `soundcraft`, `designcraft`, `vectorcraft`, `figcraft`, `deckcraft`, `wordcraft`, `gridcraft`, `craft_anything`), Blender MCP, or FFmpeg.
+- The user wants research-grounded S1–S2 film/photography advice to plan, write, storyboard, light, shoot, edit, color-grade, or master a short film, feature concept, YouTube video, documentary, commercial, or photography series.
+- The user wants either **Single-Advisor Full-Department Review (Mode A)** or **Multi-Agent Departmental Advisory Perspectives (Mode B)** reviewing their project from Directing, Cinematography, Editing, Screenwriting, and Production lenses.
+- The user needs deterministic optical, lighting, color, or audio calculations (`hmfa --json optics`) or zero-MCP CLI execution across creative desktop software.
 
-## Step 1: Select Crew Operating Mode (Single-Bot vs. Multi-Bot Crew)
+## Step 1: Select Advisory Crew Topology (Mode A vs. Mode B)
 
-Determine whether the project runs in **Mode A (Single-Bot Full-Stack Filmmaker)** or **Mode B (Multi-Bot Studio Crew)**:
+Determine whether the session runs in **Mode A (Single-Agent 8-Lens Advisor)** or **Mode B (Multi-Bot Departmental Advisory Crew)**:
 
-1. **Mode A - Single-Bot "One-Man Studio" (1 Bot = All 8 Crew Roles)**:
-   - One bot sequentially executes all 8 department heads: (1) Executive/Line Producer, (2) Screenwriter, (3) Film Director, (4) Director of Photography (DP) / Master Photographer, (5) Production Designer / Gaffer, (6) Lead Editor, (7) Colorist & VFX Supervisor, and (8) Sound Designer / Re-Recording Mixer.
+1. **Mode A — Single-Agent "8-Department Advisory Lens"**:
+   - One agent sequentially advises the human creator through 8 classical film-school department perspectives: (1) Creative Producer / Scheduler, (2) Screenwriter, (3) Director, (4) Director of Photography (DP) / Photographer, (5) Production Designer / Gaffer, (6) Film Editor, (7) Colorist & VFX Technical Advisor, and (8) Sound Designer / Mastering Engineer.
 
-2. **Mode B - Multi-Bot Hermes Studio Crew (5 Bots by Department)**:
-   - **Shizuka Hiratsuka (Director & Showrunner)**: Owns creative vision, Director's Treatment, dramatic arc, mise-en-scene, actor/voice blocking, and final cut sign-off.
-   - **Kiki-Chii (Director of Photography, Master Photographer, Art Director & Colorist)**: Owns camera/lens selection, lighting ratios, composition, storyboards, thumbnails, and color grading (`photocraft`, `lightcraft`, `designcraft`, `vectorcraft`, `figcraft`).
-   - **Shikaku Nara (Technical Director, Lead Editor, VFX/3D Supervisor & Audio Engineer)**: Owns NLE assembly, Walter Murch pacing, keyframes, 3D previz, audio mixing, and rendering pipelines (`filmcraft`, `effectcraft`, `soundcraft`, `blender`, `ffmpeg`).
-   - **Val (Screenwriter, Story Researcher & Script Supervisor)**: Owns 3-Act / Story Circle / YouTube Retention scripts, two-column AV scripts, Fountain screenplays, and continuity (`wordcraft`, `pdfcraft`, `craft_anything`).
-   - **Yukino Yukinoshita (Executive Producer, Line Producer & 1st AD)**: Owns shooting schedules, stripboards, budgets, call sheets, energy-adaptive shoot pacing, and vocal prosody coaching (`gridcraft`, `deckcraft`).
+2. **Mode B — Multi-Bot Studio Advisory Crew (e.g., 5 Specialist Hermes / Multi-Agent Profiles)**:
+   - Divides departmental advisory and technical assistance across specialist profiles (customizable to any user's bot names; default blueprint includes):
+     - **Director & Showrunner Advisor (`shizuka` / Director Profile)**: Advises on dramatic arc, Director's Treatment, emotional subtext, mise-en-scene, and cut review.
+     - **DP, Photography, Art & Color Advisor (`kiki-chii` / Visual Profile)**: Advises on focal lengths, exposure physics, lighting ratios, composition, thumbnails, and 4-node color grading (`cli-anything-gimp`, `cli-anything-krita`, `cli-anything-inkscape`, `darktable-cli`, or `photocraft-cli` / `lightcraft-cli`).
+     - **Technical Director, Editor, 3D Previz & Sound Advisor (`shikaku` / Tech Profile)**: Assists with CLI-Anything preflight, NLE assembly, 3D camera/lighting previz, keyframes, and `-14 LUFS` / `-24 LKFS` mastering (`cli-anything-blender`, `cli-anything-kdenlive`, `cli-anything-audacity`, `ffmpeg`, or `filmcraft-cli` / `effectcraft-cli` / `soundcraft-cli`).
+     - **Screenwriter, Researcher & Continuity Advisor (`val` / Story Profile)**: Assists with literature/context research, 3-Act / Kishotenketsu / Retention scripts, Fountain & Two-Column AV formatting, and `curiosity_ledger/` documentation.
+     - **Line Producer & Sustainable Pacing Advisor (`yukino` / Producer Profile)**: Assists with stripboards, shot lists, budgets, and calm, sustainable creative pacing (`cli-anything-libreoffice`, CSV/XLSX, or `gridcraft-cli`).
 
-See `references/single-vs-multibot-crew-roles.md` for complete handoff protocols.
+Read `references/single-vs-multibot-crew-roles.md` for full departmental handoff templates.
 
-## Step 2: Execute the 5-Phase S1-S2 MFA Production Pipeline
+## Step 2: Advise & Assist Across the 5-Phase S1–S2 Curriculum Pipeline
 
 ### Phase 1: Development & Screenwriting (Story Architecture)
 
-1. Choose the structural paradigm matched to the target medium:
-   - **Short-Form Vertical (9:16, 15-60s)**: Hook (0-3s visual + verbal disruption) -> Setup/Stakes (3-10s) -> Escalating Value/Beats (10-45s, visual change every 2-3s) -> Payoff & Loop/CTA (45-60s).
-   - **Long-Form YouTube (16:9, 8-25+ min)**: Cold Open Hook (0-15s confirming click promise) -> Retention Bridge & Thesis Stakes (15-45s) -> Chaptered Story/Analysis Segments with Pattern Interrupts every 60-90s -> Climax Payoff -> Native Outro.
-   - **Narrative Cinema / Anime Short or Feature**: 3-Act Structure (Setup, Confrontation, Resolution), Dan Harmon's 8-Step Story Circle, Blake Snyder's 15 Beats, or 4-Act Japanese **Kishotenketsu** (Ki: Introduction, Sho: Development, Ten: Twist/Subversion, Ketsu: Reconciliation).
-2. Draft the script in **Fountain Screenplay Format** (for narrative film, 1 page = ~1 minute screen time) or **Two-Column Audio/Visual (AV) Script** (Left column: Spoken Dialogue/VO + SFX/Music at ~130-150 WPM; Right column: Shot Size, Camera Movement, B-Roll, and Text On-Screen).
+1. Recommend a narrative structure matched to the creator's medium and intent:
+   - **Short-Form Vertical (`9:16`, 15–60s)**: Hook (`0–3s` visual + verbal disruption) -> Stakes (`3–10s`) -> Escalating Beats (`10–45s`, visual shift every `2–3s`) -> Payoff & Seamless Loop (`45–60s`).
+   - **Long-Form YouTube / Documentary (`16:9`, 8–30+ min)**: Cold Open Hook (`0–15s` confirming click promise) -> Retention Bridge & Thesis Stakes (`15–45s`) -> Chaptered Segments with Mini-Cliffhangers and Pattern Interrupts every `60–90s` -> Climax Payoff.
+   - **Narrative Cinema / Indie / Anime Short or Feature**: Classical 3-Act Structure (*Setup 25%, Confrontation 50%, Resolution 25%*), *Dan Harmon's 8-Step Story Circle*, *Blake Snyder's 15 Beats*, or East Asian 4-Act **Kishotenketsu** (*Ki, Sho, Ten, Ketsu* — conflict-independent perspective shift).
+2. Draft or review scripts in **Fountain Screenplay Format** (`1 page ≈ 1 minute`) or **Two-Column Audio/Visual (AV) Script** (`~130–150 WPM` spoken pacing paired with Shot Size, Lens, Movement, and B-Roll).
 
-See `references/mfa-directing-screenwriting.md` for full lecture notes and templates.
+Read `references/mfa-directing-screenwriting.md` for full curriculum notes and templates.
 
 ### Phase 2: Pre-Production & Directing (Mise-en-Scene, Coverage & Scheduling)
 
-1. Translate subtext into physical staging (**Blocking & Mise-en-Scene**): define character objectives, obstacles, tactics, and spatial power dynamics (vertical height, proximity, depth).
-2. Build the **Master Shot List & Coverage Plan**:
-   - Establish geography with an Establishing / Wide Shot (EWS/WS), anchor conversation with Medium Shots (MS) and Over-the-Shoulder (OTS), and reserve Close-Ups (CU/ECU) for emotional turning points.
-   - Maintain the **180-Degree Axis of Action Rule** and **30-Degree Camera Angle Rule** so cuts never jar spatial orientation unless deliberately signaling psychological disorientation.
-3. Lock the **Shooting Schedule (1st AD Stripboard)**: group shots by location, lighting direction, and lens size rather than chronological script order to minimize setup turnaround.
+1. Help the human director translate subtext into physical staging (**Actionable Verbs & Blocking Topologies**: *I-Formation* confrontation, *A-Formation* hierarchy, *L-Formation* unspoken tension).
+2. Advise on a **Master Shot List & Coverage Plan** (EWS/WS geography -> MS/OTS anchor -> CU/ECU reserved for emotional turning points) respecting the **180-Degree Axis of Action** and **30-Degree Rule** (unless intentionally broken for psychological disorientation).
+3. Organize the **1st AD Stripboard** by location, lighting direction, and focal length rather than chronological script page order to save on-set turnaround time.
 
-### Phase 3: Cinematography (Videography) & Master Photography
+### Phase 3: Cinematography (Videography) & Still Photography Physics
 
-Apply rigorous optical and photographic physics to every frame (real camera, Blender 3D camera, or AI visual prompt):
+Ground camera recommendations in optical and sensor physics (run `hmfa --json optics` for exact numbers):
 
-1. **Exposure Triangle & Motion Physics**:
-   - **Aperture (f-stop)**: Controls Depth of Field (DoF) and light intake ($f/1.4 - f/2.8$ for shallow subject isolation; $f/5.6 - f/11$ for deep sharpness).
-   - **Shutter Speed & 180-Degree Rule**: In videography, lock shutter angle to $180^\circ$ where $\text{Shutter Speed} = \frac{1}{2 \times \text{FPS}}$ (e.g., $24\text{ fps} \rightarrow 1/48\text{s}$ or $1/50\text{s}$; $60\text{ fps} \rightarrow 1/120\text{s}$) for natural motion blur. Use Neutral Density (ND) filters outdoors rather than cranking shutter speed.
-   - **ISO & Dynamic Range**: Expose at the sensor's Native / Dual-Native ISO to maximize dynamic range and signal-to-noise ratio (SNR). Place Caucasian/Asian skin tones around **60-70 IRE** on False Color / Zebra meters; protect highlights in Log profiles (S-Log3, C-Log, V-Log, ARRI LogC).
-2. **Optics & Focal Length Psychology**:
-   - **14mm-24mm (Ultra-Wide/Wide)**: Expands space, exaggerates depth and movement, creates dynamic tension or claustrophobic distortion up close.
-   - **35mm-50mm (Standard/Natural Human Vision)**: Grounded documentary intimacy and natural perspective (`35mm` environmental portrait; `50mm` classic human eye).
-   - **85mm-135mm+ (Telephoto)**: Compresses background distance, isolates the subject with creamy bokeh, and intensifies emotional focus.
+1. **Exposure Triangle & Shutter Cadence**:
+   - **Aperture ($f$-stop)**: Controls Depth of Field and light intake ($f/1.4 - f/2.8$ shallow isolation; $f/5.6 - f/11$ deep spatial context).
+   - **180-Degree Shutter Rule**: $t = \frac{1}{2 \times \text{FPS}}$ (`24 fps -> 1/48s` or `1/50s` in 50Hz PAL regions; `60 fps -> 1/120s`). Advise Neutral Density (ND) filters outdoors rather than cranking shutter speed.
+   - **Native ISO & False Color (IRE)**: Expose at Base/Dual-Native ISO. Guide skin-tone key placement to **`55–70 IRE`** (`45–55 IRE` deep skin, `55–65 IRE` medium/SEA skin, `60–70 IRE` light skin) while guarding highlights `< 95 IRE`.
+2. **Optics, Hyperfocal Math ($H = \frac{f^2}{N \cdot c} + f$) & Focal Psychology**:
+   - `14mm–24mm` (spatial expansion & dynamic tension), `35mm–50mm` (grounded human perspective), `85mm–135mm+` (background compression & intimate isolation).
 3. **Lighting Design & Inverse Square Law ($I \propto 1/d^2$)**:
-   - Design **Motivated Lighting**: every Key Light, Fill Light, and Back/Rim (Hair) Light must have a believable diegetic source (window, lamp, street neon, monitor glow).
-   - Control **Lighting Ratios**: **2:1** (High-Key, beauty, upbeat YouTube), **4:1** (Natural dramatic narrative, Rembrandt triangle), **8:1+** (Low-Key, Film Noir, Chiaroscuro tension).
-   - Balance **Color Temperature (Kelvin)**: Warm Tungsten/Candlelight (`2700K-3200K`) vs. Daylight (`5600K`) vs. Cool Shade/Moonlight (`6500K-8000K`). Use mixed color temperatures (e.g., `3200K` warm key against `5600K` cool background fill) for instant cinematic color separation.
+   - Advise **Motivated Lighting** with intentional **Key-to-Fill Ratios**: **`2:1`** (*High-Key / Soft Book-Light*), **`4:1`** (*Naturalistic Drama / Rembrandt*), **`8:1+`** (*Low-Key Chiaroscuro / Negative Fill*), plus Kelvin color contrast (e.g., `3200K` warm key vs `5600K` cool fill/rim).
 
-See `references/mfa-cinematography-photography.md` for full mathematical formulas and lighting diagrams.
+Read `references/mfa-cinematography-photography.md` for formulas, diagrams, and still-photography shutter rules.
 
-### Phase 4: Post-Production (Editing, Color Grading, VFX & Sound Design)
+### Phase 4: Post-Production Advisory (Editing, Color Science & Psychoacoustic Audio)
 
-1. **Film Editing - Walter Murch's Rule of Six**:
-   Evaluate every cut in strict priority order:
-   - (1) **Emotion (51%)**: Does the cut serve the emotional truth of the moment?
-   - (2) **Story (23%)**: Does the cut advance the narrative or thesis?
-   - (3) **Rhythm (10%)**: Does the cut happen at the right musical/cadence beat?
-   - (4) **Eye-Trace (7%)**: Does the viewer's focus land cleanly on the next frame's point of interest?
-   - (5) **2D Plane of Screen (5%)**: Does the cut respect screen direction and axis?
-   - (6) **3D Space of Action (4%)**: Does the cut preserve physical room continuity?
-2. **J-Cuts, L-Cuts & Montage**:
-   - Lead audio by 4-15 frames before the video cut (**J-Cut**) or trail audio into the next shot (**L-Cut**) so dialogue and transitions breathe naturally.
-3. **Color Correction & Color Grading**:
-   - Transform Log footage to Working Color Space (**ACEScct / DaVinci Wide Gamut**), balance exposure on the **Waveform** (0-100 IRE), neutralize white balance on the **RGB Parade**, align skin tones along the **Vectorscope Skin-Tone Line**, apply creative look/palette, and output to **Rec.709 (Gamma 2.4)**.
-4. **Sound Design & Loudness Mastering**:
-   - Layer **Dialogue/VO** (centered, high-pass filter at `80-100 Hz`, gentle 3:1 compression, de-esser, peaking at `-6 dBFS` to `-3 dBFS`), **Room Tone / Ambience** (`-30` to `-24 dBFS`), **Foley & SFX** (`-18` to `-10 dBFS`), and **Music Score** (ducked to `-24` to `-18 dBFS` under voice).
-   - Master integrated loudness to **`-14 LUFS` (`-1.0 dBTP` True Peak)** for YouTube/Social Platforms or **`-24 LKFS` (`-2.0 dBTP`)** for Cinema/Broadcast.
+1. **Film Editing — Walter Murch's Rule of Six**:
+   Evaluate cuts in strict priority: **(1) Emotion `51%`**, **(2) Story `23%`**, **(3) Rhythm `10%`**, **(4) Eye-Trace `7%`**, **(5) 2D Screen Plane `5%`**, **(6) 3D Space `4%`**, smoothing dialogue transitions with `4–15 frame` **J-Cuts** and **L-Cuts**.
+2. **4-Stage Color Pipeline (ACEScct / DaVinci Wide Gamut -> Rec.709 / sRGB)**:
+   - Stage 1: CST In & Primary Waveform Balance (`5–95 IRE`) -> Stage 2: RGB Parade Neutralization & Contrast Pivot -> Stage 3: Vectorscope Skin-Tone Line Isolation -> Stage 4: Creative Palette, Halation, Bloom & Organic Grain.
+3. **Sound Design & Loudness Mastering**:
+   - Dialogue chain (HPF `80 Hz`, subtractive boxiness cut `250–400 Hz`, de-esser, two-stage FET+Opto compression), `-3` to `-5 dB` dynamic music ducking in `1–4 kHz`, mastered to **`-14.0 LUFS` (`-1.0 dBTP`)** for Web/YouTube/Shorts or **`-24.0 LKFS` (`-2.0 dBTP`)** for Cinema/Broadcast.
 
-### Phase 5: Hermes ArtCraft & Blender Cross-App Execution
+### Phase 5: Zero-MCP CLI-Anything & Cross-Skill Execution
 
-When executing inside Hermes on Windows (`D:\HermesData`), chain the local MCP servers using explicit saved files in a dedicated project subfolder:
+When the user asks to generate project files, previz renders, edits, or grades on their machine:
+1. Run `hmfa --json preflight` (via `cli-anything-filmmaking-bridge`) to detect available tools in the user's actual environment (never hardcode personal drive paths).
+2. Execute non-destructively inside a dedicated project folder (`projects/<project-name>/`), saving editable source files (`.fountain`, `.blend`, `.kdenlive`, `.xcf`, `.kra`, `.svg`, `.aup3`, or `.fcproj`/`.ecproj`/`.soundcraft`) alongside exported deliverables (`.mp4`, `.png`, `.wav`, `.pdf`).
+3. Pull fresh verified **Cinematic Recipe Cards** and **Trend Forecasts** from `auto-curiousity-for-film-making` (`curiosity_ledger/`), and collaborate with peer skills (`deep-research`, `literature-review`, `data-analysis`, `creative-thinking-for-research`, `novelty-assessment`, `slide-generation`, `match-my-writing-style`, `focus-my-energy`) whenever deeper research, data validation, or pitch materials are needed.
 
-1. **`craft_anything`** (`project.cany`): Write the creative brief, research evidence, and production plan (`core_brief_write`, `core_plan_update`, `core_report_save`).
-2. **`wordcraft`** (`.docx`/`.pdf`) & **`gridcraft`** (`.xlsx`): Generate the Fountain/AV Script, Call Sheet, Shot List, and Budget (`new_document`, `new_workbook`, `write_range`).
-3. **`designcraft`** (`.designcraft`) / **`figcraft`** (`.figcraft`) / **`vectorcraft`** (`.svg`): Build storyboards, moodboards, title cards, and lower-thirds.
-4. **`blender`** (`.blend`): Build 3D camera pre-visualization (previz), test lens focal lengths (24mm/35mm/50mm/85mm), simulate 3-point lighting, and render 3D sequences.
-5. **`photocraft`** & **`lightcraft`**: Composite thumbnails/stills (`doc_new`, `doc_save`, `doc_export`) and develop/color-grade photo libraries (`import`, `set_develop`, `export`).
-6. **`filmcraft`** (`.fcproj`), **`effectcraft`** (`.ecproj`), & **`soundcraft`** (`.soundcraft`): Import media (`media_import`), assemble timeline sequences, animate keyframes (`add_keyframe`, `render_frame`), mix audio (`import_audio`, `bounce_mix`), and render final preview/export (`render_preview`).
-
-See `references/mfa-editing-color-sound-artcraft.md` for complete ArtCraft MCP command workflows.
+Read `references/mfa-editing-color-sound-artcraft.md` for full post-production and CLI-Anything / native CLI workflows.
 
 ## Gotchas
 
-- Never sacrifice **Emotion (51%)** and **Story (23%)** for flashy transitions or unmotivated camera movement.
-- In `lightcraft`, only one process can hold an active library lock at a time; close GUI locks before running CLI MCP operations.
-- Always save native project files (`.fcproj`, `.ecproj`, `.soundcraft`, `.designcraft`, `.blend`) alongside exported deliverables (`.mp4`, `.png`, `.wav`, `.pdf`) so edits can be resumed without starting from scratch.
+- **Advisor Humility**: Always frame creative suggestions with *why* they work optically, dramatically, or psychoacoustically, and offer options so the human creator makes the final artistic call.
+- **Emotion Over Gimmicks**: Never sacrifice **Emotion (51%)** and **Story (23%)** for trendy transitions that contradict the scene's tone.
+- **Provider/Model Lock**: Never alter any user agent `provider` or `model` settings during production or tool setup.
