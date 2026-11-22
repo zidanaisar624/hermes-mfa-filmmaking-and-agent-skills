@@ -10,6 +10,7 @@
 [![Architected by Google Gemini](https://img.shields.io/badge/Architected_%26_Written_by-Google_Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white)](https://gemini.google.com)
 [![Initiated by MuZA](https://img.shields.io/badge/Initiated_%26_Experimented_by-Muhammad_Zidan_Aisar_%28MuZA%29-F59E0B?style=flat-square)](https://github.com/zidanaisar624)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square)](./LICENSE)
+[![Dukung via Saweria](https://img.shields.io/badge/Dukung%20via%20Saweria-QRIS%20%7C%20Mulai%20Rp25rb%20%2F%20Pro%20Rp100rb-F59E0B?style=for-the-badge)](https://saweria.co/muzas)
 
 > **Summary (English)**: *Suite of 48 Collaborative AI Agent Skills featuring an internet-researched S1–S2 (BFA/MFA) Filmmaking, Cinematography & Photography Advisor (built as a humble Co-Pilot with deep respect for film students & human film crews—NEVER a replacement) + Eternal-Student Auto-Curiosity R&D & Trend Forecasting Engine. Native CLI-Anything zero-MCP ready (with optional 15 ArtCraft apps & Blender 5.2+ integration) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini, and 100% free to use.*
 
@@ -264,6 +265,16 @@ Diatur di dalam [`references/single-vs-multibot-crew-roles.md`](./skills/filmmak
 ---
 
 ![Hermes filmmaking principle: research, make, review, evolve](./assets/cinematic-studio/12_end_card.png)
+
+---
+
+## Dukung Pengembangan / Support
+
+[![Dukung via Saweria](https://img.shields.io/badge/Dukung%20via%20Saweria-QRIS%20%7C%20Mulai%20Rp25rb%20%2F%20Pro%20Rp100rb-F59E0B?style=for-the-badge)](https://saweria.co/muzas)
+
+Proyek inti **Hermes MFA Filmmaking & Agent Skills** tetap **open-source** dan bebas digunakan oleh siapa saja. Jika bermanfaat, dukungan sukarela melalui [Saweria (`https://saweria.co/muzas`)](https://saweria.co/muzas) membantu kelanjutan riset serta pembaruan rutin repositori ini.
+
+---
 
 ## Lisensi & Kredit
 
