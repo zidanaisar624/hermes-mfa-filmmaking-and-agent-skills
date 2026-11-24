@@ -4,13 +4,13 @@
     "name": "Muhammad Zidan Aisar (MuZA) & Google Gemini"
   },
   "metadata": {
-    "description": "48 Collaborative AI Skills: internet-researched S1-S2 Film, Cinematography & Photo Advisor (Co-Pilot respecting film students & crews, NOT a replacement) + Eternal-Student Auto-Curiosity & Trend R&D (CLI-Anything, ArtCraft & Blender 5.2+) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini & 100% free."
+    "description": "49 Collaborative AI Skills: internet-researched S1-S2 Film, Cinematography & Photo Advisor (Co-Pilot respecting film students & crews, NOT a replacement) + automatic Lemo-Opuscar (15 categories / 99 cinema styles) + Eternal-Student Auto-Curiosity & Trend R&D (CLI-Anything, ArtCraft & Blender 5.2+) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini & 100% free."
   },
   "plugins": [
     {
       "name": "filmmaking-advisor-suite",
       "source": "./",
-      "description": "48 interoperable skills including S1-S2 Filmmaking/Photography Advisor, Eternal-Student Auto-Curiosity (new-app onboarding + trend prediction), and zero-token CLI-Anything execution.",
+      "description": "49 interoperable skills including S1-S2 Filmmaking/Photography Advisor, default-ON Lemo-Opuscar (99 code-film styles), Eternal-Student Auto-Curiosity, and zero-token CLI-Anything execution.",
       "author": {
         "name": "Muhammad Zidan Aisar (MuZA)"
       },

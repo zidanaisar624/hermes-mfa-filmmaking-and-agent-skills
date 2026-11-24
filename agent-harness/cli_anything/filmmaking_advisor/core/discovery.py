@@ -48,6 +48,10 @@ SKIP_DIRS_LOWER: Set[str] = {
     "dev",
     "run",
     "snap",
+    "1. private",
+    "2. data diri atau perkembangan diri (np)",
+    "msshi_recovery",
+    "msshi-private",
 }
 
 CREATIVE_HARNESSES: List[Tuple[str, str, str]] = [
@@ -246,7 +250,7 @@ def _bounded_drive_scan(roots: List[Path], max_depth: int = 3, max_dirs_per_driv
             except OSError:
                 continue
 
-        # 2. Bounded BFS for nested user layouts (e.g. D:\Zidan\HermesData or E:\Workspace\HermesData)
+        # 2. Bounded BFS for nested user layouts (e.g. D:\Projects\HermesData or E:\Workspace\HermesData)
         queue: List[Tuple[Path, int]] = [(root, 0)]
         inspected = 0
         while queue and inspected < max_dirs_per_drive:

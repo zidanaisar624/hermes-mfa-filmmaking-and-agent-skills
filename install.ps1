@@ -142,7 +142,7 @@ if (-not $HermesOnly) {
     }
 }
 
-$CoreSet = @("filmmaking-videography-photography-s2", "auto-curiousity-for-film-making", "cli-anything-filmmaking-bridge")
+$CoreSet = @("filmmaking-videography-photography-s2", "auto-curiousity-for-film-making", "cli-anything-filmmaking-bridge", "lemo-opuscar")
 $SkillFolders = Get-ChildItem -Path (Join-Path $RepoRoot "skills") -Directory | Where-Object {
     (Test-Path (Join-Path $_.FullName "SKILL.md")) -and (-not $CoreOnly -or ($CoreSet -contains $_.Name))
 }

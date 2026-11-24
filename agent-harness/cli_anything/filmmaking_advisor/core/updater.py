@@ -406,6 +406,7 @@ def install_skills_everywhere(
         "filmmaking-videography-photography-s2",
         "auto-curiousity-for-film-making",
         "cli-anything-filmmaking-bridge",
+        "lemo-opuscar",
     }
 
     skill_dirs = sorted(
@@ -622,6 +623,7 @@ def export_chatgpt_bundle(repo_root: Optional[Path] = None, out_dir: Optional[Pa
         root / "skills" / "auto-curiousity-for-film-making" / "references" / "trend-forecasting-and-knowledge-evolution.md",
         root / "skills" / "auto-curiousity-for-film-making" / "references" / "cross-skill-synergy-mesh.md",
         root / "skills" / "cli-anything-filmmaking-bridge" / "SKILL.md",
+        root / "skills" / "lemo-opuscar" / "SKILL.md",
     ]
     included = []
     for fp in files_to_pack:

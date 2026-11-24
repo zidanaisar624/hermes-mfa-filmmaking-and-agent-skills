@@ -1,6 +1,14 @@
 # Changelog
 
-All notable changes to **Hermes & Universal S1–S2 (BFA/MFA) Filmmaking Advisor, Eternal-Student Auto-Curiosity & 48 AI Agent Skills Suite** are documented in this file.
+All notable changes to **Hermes & Universal S1–S2 (BFA/MFA) Filmmaking Advisor, Eternal-Student Auto-Curiosity & 49 AI Agent Skills Suite** are documented in this file.
+
+## [2.1.0] - 2026-11-24
+
+### Added
+- **Automatic Default-ON `lemo-opuscar` Skill (`skills/lemo-opuscar/SKILL.md` + `LICENSE.upstream`)**:
+  - Bundled original MIT-licensed wrapper for [`lemomo-ai/lemo-opuscar`](https://github.com/lemomo-ai/lemo-opuscar) (`f9e204293930952b61ba921cd8944d05f121beee`) covering **15 categories and 99 code-based short film & explainer styles**.
+  - Installed **automatically by default** across full and `--core-only` setups (Hermes Root, all Hermes Bot Profiles, OpenClaw, Claude Code, Codex CLI, universal `~/.agents/skills`, and packed into `exports/chatgpt/02_UPLOAD_AS_CHATGPT_KNOWLEDGE_BASE.md`—no opt-in flag required, contrasting with opt-in `optional/lemo-opuscar` in MSSHI Core `v3.2.0`).
+  - Enforces a 3-step *Concepting First* selection gate (introduce 15 categories -> recommend 3–5 fitting style slugs -> load only the 1 confirmed style guide on-demand without vendoring upstream docs/assets).
 
 ## [2.0.0] - 2026-11-07
 

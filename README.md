@@ -1,20 +1,20 @@
-# Hermes & Universal S1–S2 (BFA/MFA) Filmmaking Advisor, Eternal-Student Auto-Curiosity & 48 AI Agent Skills Suite
+# Hermes & Universal S1–S2 (BFA/MFA) Filmmaking Advisor, Eternal-Student Auto-Curiosity & 49 AI Agent Skills Suite
 
 ![Hermes MFA Filmmaking & Auto-Curiousity Banner](./assets/hero_banner.png)
 
-[![Version](https://img.shields.io/badge/Version-2.0.0-2563EB?style=flat-square)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-2.1.0-2563EB?style=flat-square)](./CHANGELOG.md)
 [![Primary Target](https://img.shields.io/badge/Priority_%231-Hermes_Agent-7C3AED?style=flat-square)](https://github.com/NousResearch/hermes-agent)
 [![Universal Agents](https://img.shields.io/badge/Compatible-OpenClaw_%7C_ChatGPT_%7C_Claude_%7C_All_Agents-059669?style=flat-square)](#2-kompatibilitas-lintas-semua-ai-agent-hermes-1-openclaw-chatgpt-claude-lainnya)
 [![CLI-Anything](https://img.shields.io/badge/Zero_MCP_Token_Bloat-HKUDS%2FCLI--Anything_%2B_ArtCraft_%26_Blender_5.2%2B-EA580C?style=flat-square)](https://github.com/HKUDS/CLI-Anything)
-[![Skills Included](https://img.shields.io/badge/Interoperable_Skills-48_Collaborative_Skills-10B981?style=flat-square)](./skills)
+[![Skills Included](https://img.shields.io/badge/Interoperable_Skills-49_Collaborative_Skills-10B981?style=flat-square)](./skills)
 [![Architected by Google Gemini](https://img.shields.io/badge/Architected_%26_Written_by-Google_Gemini-4285F4?style=flat-square&logo=google-gemini&logoColor=white)](https://gemini.google.com)
 [![Initiated by MuZA](https://img.shields.io/badge/Initiated_%26_Experimented_by-Muhammad_Zidan_Aisar_%28MuZA%29-F59E0B?style=flat-square)](https://github.com/zidanaisar624)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3B82F6?style=flat-square)](./LICENSE)
 [![Dukung via Saweria](https://img.shields.io/badge/Dukung%20via%20Saweria-QRIS%20%7C%20Mulai%20Rp25rb%20%2F%20Pro%20Rp100rb-F59E0B?style=for-the-badge)](https://saweria.co/muzas)
 
-> **Summary (English)**: *Suite of 48 Collaborative AI Agent Skills featuring an internet-researched S1–S2 (BFA/MFA) Filmmaking, Cinematography & Photography Advisor (built as a humble Co-Pilot with deep respect for film students & human film crews—NEVER a replacement) + Eternal-Student Auto-Curiosity R&D & Trend Forecasting Engine. Native CLI-Anything zero-MCP ready (with optional 15 ArtCraft apps & Blender 5.2+ integration) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini, and 100% free to use.*
+> **Summary (English)**: *Suite of 49 Collaborative AI Agent Skills featuring an internet-researched S1–S2 (BFA/MFA) Filmmaking, Cinematography & Photography Advisor (built as a humble Co-Pilot with deep respect for film students & human film crews—NEVER a replacement) + automatic default-ON `lemo-opuscar` (15 categories / 99 code-based short film styles) + Eternal-Student Auto-Curiosity R&D & Trend Forecasting Engine. Native CLI-Anything zero-MCP ready (with optional 15 ArtCraft apps & Blender 5.2+ integration) for Hermes, OpenClaw, ChatGPT & Claude. Born from a fun experiment, architected by Google Gemini, and 100% free to use.*
 
-Repositori ini berisi ekosistem **48 Modular & Interoperable AI Agent Skills** (`SKILL.md` + modul referensi teknis + *CLI-Anything Agent Harness*) yang dirancang utama (**Prioritas #1**) untuk **Hermes Agent**, sekaligus **100% kompatibel dengan OpenClaw, ChatGPT (Custom GPTs, Projects & Codex CLI), Claude (Claude Code, Desktop & Claude Projects), Cursor, dan seluruh agen berstandar `agentskills.io`**, serta mendukung eksekusi hemat token via **`CLI-Anything`** maupun integrasi **15 aplikasi ArtCraft & Blender 5.2+**.
+Repositori ini berisi ekosistem **49 Modular & Interoperable AI Agent Skills** (`SKILL.md` + modul referensi teknis + *CLI-Anything Agent Harness*) yang dirancang utama (**Prioritas #1**) untuk **Hermes Agent**, sekaligus **100% kompatibel dengan OpenClaw, ChatGPT (Custom GPTs, Projects & Codex CLI), Claude (Claude Code, Desktop & Claude Projects), Cursor, dan seluruh agen berstandar `agentskills.io`**, lengkap dengan integrasi otomatis **`lemo-opuscar`** (*15 kategori / 99 gaya sinema berbasis kode*, langsung aktif tanpa opt-in) serta eksekusi hemat token via **`CLI-Anything`** maupun **15 aplikasi ArtCraft & Blender 5.2+**.
 
 > [!IMPORTANT]
 > ### Penghormatan untuk Anak Kuliah Film & Pekerja Sinema: *Advisor* Riset, BUKAN Pengganti Manusia!
@@ -185,6 +185,7 @@ Atau menggunakan skrip helper bawaan di folder repositori:
 | **`filmmaking-videography-photography-s2`** | [`skills/filmmaking-videography-photography-s2/`](./skills/filmmaking-videography-photography-s2/SKILL.md) | **Creative & Technical Advisor** berbasis riset kurikulum S1–S2 perfilman, videografi (`16:9` & `9:16`), dan fotografi. Membantu kreator manusia di 5 fase produksi. | Naskah Fountain/AV, *Shot List*, Kalkulasi Optik/IRE/LUFS, Panduan Grading & Editing |
 | **`auto-curiousity-for-film-making`** | [`skills/auto-curiousity-for-film-making/`](./skills/auto-curiousity-for-film-making/SKILL.md) | **Eternal Student Engine** yang otomatis mempelajari setiap *update* aplikasi, mempelajari **setiap aplikasi baru yang disambungkan**, menyerap ilmu baru, membedah tren, hingga **memprediksi tren masa depan**. | `connected_apps_registry.json`, `tested_recipes_registry.json`, `trend_forecasts.json` |
 | **`cli-anything-filmmaking-bridge`** | [`skills/cli-anything-filmmaking-bridge/`](./skills/cli-anything-filmmaking-bridge/SKILL.md) | **Zero-MCP Token Execution Bridge** yang menghubungkan rekomendasi kreatif ke `HKUDS/CLI-Anything` (`cli-hub`, `cli-anything-* --json`) & CLI kreatif lokal. | Eksekusi deterministik `--json` tanpa beban token skema MCP |
+| **`lemo-opuscar`** *(Aktif Otomatis)* | [`skills/lemo-opuscar/`](./skills/lemo-opuscar/SKILL.md) | **15 Kategori & 99 Gaya Sinema Berbasis Kode (`Lemo-Opuscar`)** terpasang otomatis (*default-ON*): mengenalkan kategori, merekomendasikan 3–5 gaya, dan memuat 1 panduan gaya pilihan on-demand. | Storyboard & produksi film pendek / explainer berbasis kode dengan review manusia |
 
 ---
 
@@ -238,13 +239,13 @@ Skill [`auto-curiousity-for-film-making`](./skills/auto-curiousity-for-film-maki
 
 ---
 
-## 8. Jaringan Kolaborasi Penuh Antar Semua 48+ Skills
+## 8. Jaringan Kolaborasi Penuh Antar Semua 49+ Skills
 
-Seluruh **48 *skills*** di direktori [`skills/`](./skills/) (ditambah *skill* eksternal mana pun yang Anda miliki) bekerja sama dalam satu kesatuan sistem interaktif via panduan arsitektur [`cross-skill-synergy-mesh.md`](./skills/auto-curiousity-for-film-making/references/cross-skill-synergy-mesh.md):
+Seluruh **49 *skills*** di direktori [`skills/`](./skills/) (ditambah *skill* eksternal mana pun yang Anda miliki) bekerja sama dalam satu kesatuan sistem interaktif via panduan arsitektur [`cross-skill-synergy-mesh.md`](./skills/auto-curiousity-for-film-making/references/cross-skill-synergy-mesh.md):
 
 | Klaster Kolaborasi | Daftar Skill (`skills/<nama-skill>/`) |
 | :--- | :--- |
-| **Core Filmmaking Advisor, Curiosity & CLI-Anything (3)** | `filmmaking-videography-photography-s2`, `auto-curiousity-for-film-making`, `cli-anything-filmmaking-bridge` |
+| **Core Filmmaking Advisor, Lemo-Opuscar, Curiosity & CLI-Anything (4)** | `filmmaking-videography-photography-s2`, `lemo-opuscar`, `auto-curiousity-for-film-making`, `cli-anything-filmmaking-bridge` |
 | **AI Research, Sandbox R&D & Code Introspection (14)** | `autoresearch`, `ai-research-explore`, `ai-research-reproduction`, `analyze-project`, `explore-code`, `explore-run`, `paper-context-resolver`, `brainstorming-research-ideas`, `creative-thinking-for-research`, `idea-generation`, `novelty-assessment`, `deep-research`, `literature-review`, `github-research` |
 | **Academic Writing, Pitching & Traceability (8)** | `research-paper-writing`, `paper-writing-section`, `paper-revision`, `rebuttal-writing`, `academic-plotting`, `table-generation`, `slide-generation`, `backward-traceability` |
 | **Mathematics, Data Science & Trend Modeling (4)** | `math-reasoning`, `data-analysis`, `symbolic-equation`, `notebooklm-thinking-datascience` |
